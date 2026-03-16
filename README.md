@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://apps.apple.com/at/app/tammad/id6755873489">
-    <img src="appstore_icon.png" alt="Tammad im App Store" width="140">
+    <img src="appstore_icon.svg" alt="Tammad im App Store" width="140">
   </a>
 </p>
 
