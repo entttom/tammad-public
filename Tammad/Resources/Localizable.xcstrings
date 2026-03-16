@@ -21,6 +21,12 @@
             "state" : "translated",
             "value" : "(Bearbeitbar)"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Editable)"
+          }
         }
       }
     },
@@ -76,6 +82,12 @@
             "state" : "translated",
             "value" : "%d Tage kostenlos testen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d days free trial"
+          }
         }
       }
     },
@@ -104,10 +116,36 @@
       }
     },
     "•" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "•"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "•"
+          }
+        }
+      }
     },
     "••••••••" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "••••••••"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "••••••••"
+          }
+        }
+      }
     },
     "1 day free trial" : {
       "localizations" : {
@@ -115,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 Tag kostenlos testen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 day free trial"
           }
         }
       }
@@ -126,11 +170,23 @@
             "state" : "translated",
             "value" : "7 Tage kostenlos testen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 days free trial"
+          }
         }
       }
     },
     "Abbrechen" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -173,6 +229,12 @@
     },
     "Abonniert" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonniert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -188,6 +250,12 @@
             "state" : "translated",
             "value" : "Über AI-Integration"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About AI Integration"
+          }
         }
       }
     },
@@ -197,6 +265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontoinformationen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account Info"
           }
         }
       }
@@ -208,6 +282,12 @@
             "state" : "translated",
             "value" : "Aktives Abonnement"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active Subscription"
+          }
         }
       }
     },
@@ -217,6 +297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Übernehmen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adopt"
           }
         }
       }
@@ -228,6 +314,12 @@
             "state" : "translated",
             "value" : "Nach %d Tagen wird automatisch %@ berechnet. Danach %@ %@."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After %d days, %@ will be charged automatically. Then %@ %@."
+          }
         }
       }
     },
@@ -237,6 +329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nach %d Tagen wird automatisch %@ berechnet. Danach %@ %@. Sie können jederzeit in den App Store-Einstellungen kündigen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After %d days, %@ will be charged automatically. Then %@ %@. You can cancel anytime in your App Store settings."
           }
         }
       }
@@ -248,6 +346,12 @@
             "state" : "translated",
             "value" : "KI"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI"
+          }
         }
       }
     },
@@ -257,6 +361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "AI-Konfiguration erforderlich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI configuration required"
           }
         }
       }
@@ -268,6 +378,12 @@
             "state" : "translated",
             "value" : "AI-Konfiguration erforderlich"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Configuration Required"
+          }
         }
       }
     },
@@ -277,6 +393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "AI-Antwort"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Reply"
           }
         }
       }
@@ -288,6 +410,12 @@
             "state" : "translated",
             "value" : "AI-Einstellungen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Settings"
+          }
         }
       }
     },
@@ -297,6 +425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "KI-gestützte Antwortgenerierung ist eine Premium-Funktion. Upgraden Sie, um diese Funktionalität zu nutzen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI-powered response generation is a premium feature. Upgrade to access this functionality."
           }
         }
       }
@@ -329,6 +463,12 @@
     },
     "Aktualisiert (älteste zuerst)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiert (älteste zuerst)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -339,6 +479,12 @@
     },
     "Aktualisiert (neueste zuerst)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiert (neueste zuerst)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -349,6 +495,12 @@
     },
     "Alle" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -359,6 +511,12 @@
     },
     "Alle als gelesen" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle als gelesen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -369,6 +527,12 @@
     },
     "Antworten" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antworten"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -379,6 +543,12 @@
     },
     "Anwenden" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anwenden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -394,6 +564,12 @@
             "state" : "translated",
             "value" : "API-Konfiguration"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Configuration"
+          }
         }
       }
     },
@@ -403,6 +579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "API-Endpunkt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Endpoint"
           }
         }
       }
@@ -414,6 +596,12 @@
             "state" : "translated",
             "value" : "API-Fehler: %@"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API error: %@"
+          }
         }
       }
     },
@@ -423,6 +611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "API-Schlüssel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Key"
           }
         }
       }
@@ -444,17 +638,49 @@
             "state" : "translated",
             "value" : "Anhänge"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attachments"
+          }
         }
       }
     },
     "ausgewählt" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ausgewählt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "selected"
+          }
+        }
+      }
     },
     "Auth Type" : {
 
     },
     "Authentication Method" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentifizierungsmethode"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentication Method"
+          }
+        }
+      }
     },
     "Automatic renewal after trial" : {
       "localizations" : {
@@ -462,6 +688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Automatische Verlängerung nach Testphase"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic renewal after trial"
           }
         }
       }
@@ -493,6 +725,22 @@
         }
       }
     },
+    "Basic Auth" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basic Auth"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basic Auth"
+          }
+        }
+      }
+    },
     "Benachrichtigung" : {
       "localizations" : {
         "en" : {
@@ -505,6 +753,12 @@
     },
     "Benachrichtigungen" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -531,6 +785,12 @@
     },
     "Benutzerdefiniert" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzerdefiniert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -545,6 +805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
           }
         }
       }
@@ -561,10 +827,36 @@
       }
     },
     "CC" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CC"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CC"
+          }
+        }
+      }
     },
     "Close" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
     },
     "Configure your own AI API to generate intelligent responses to ticket messages. The API key is stored securely in your device's keychain." : {
       "localizations" : {
@@ -572,6 +864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konfigurieren Sie Ihre eigene AI-API, um intelligente Antworten auf Ticket-Nachrichten zu generieren. Der API-Key wird sicher im Keychain Ihres Geräts gespeichert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configure your own AI API to generate intelligent responses to ticket messages. The API key is stored securely in your device's keychain."
           }
         }
       }
@@ -588,7 +886,36 @@
       }
     },
     "Connection successful! %lld models loaded." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung erfolgreich! %lld Modelle geladen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection successful! %lld models loaded."
+          }
+        }
+      }
+    },
+    "Contact" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        }
+      }
     },
     "Create Ticket" : {
       "localizations" : {
@@ -596,6 +923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ticket erstellen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create Ticket"
           }
         }
       }
@@ -640,6 +973,12 @@
             "state" : "translated",
             "value" : "Eigene"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom"
+          }
         }
       }
     },
@@ -650,6 +989,12 @@
             "state" : "translated",
             "value" : "Eigene Anweisung"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom Instruction"
+          }
         }
       }
     },
@@ -659,6 +1004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kunde"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Customer"
           }
         }
       }
@@ -675,7 +1026,36 @@
       }
     },
     "Customer *" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunde *"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Customer *"
+          }
+        }
+      }
+    },
+    "Decoding error: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dekodierungsfehler: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decoding error: %@"
+          }
+        }
+      }
     },
     "Der Server ist möglicherweise nicht erreichbar. Sie können sich abmelden oder es später erneut versuchen." : {
       "localizations" : {
@@ -700,11 +1080,30 @@
             "state" : "translated",
             "value" : "Details & Installation"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details & Installation"
+          }
         }
       }
     },
     "Done" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
     },
     "Double tap to log in to Zammad" : {
       "localizations" : {
@@ -713,11 +1112,30 @@
             "state" : "translated",
             "value" : "Doppeltippen zum Anmelden bei Zammad"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double tap to log in to Zammad"
+          }
         }
       }
     },
     "Double tap to send the reply" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doppeltippen, um die Antwort zu senden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double tap to send the reply"
+          }
+        }
+      }
     },
     "Double tap to submit the new ticket" : {
       "extractionState" : "stale",
@@ -741,14 +1159,55 @@
         }
       }
     },
+    "Dr. Thomas Entner" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dr. Thomas Entner"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dr. Thomas Entner"
+          }
+        }
+      }
+    },
     "Edit" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        }
+      }
     },
     "Edit Ticket" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Ticket"
+          }
+        }
+      }
     },
     "Edit tickets" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -759,7 +1218,20 @@
       }
     },
     "Edit User" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzer bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit User"
+          }
+        }
+      }
     },
     "Einstellungen" : {
       "extractionState" : "stale",
@@ -779,6 +1251,12 @@
             "state" : "translated",
             "value" : "E-Mail"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
         }
       }
     },
@@ -788,6 +1266,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Benachrichtigungen aktivieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Notifications"
+          }
+        }
+      }
+    },
+    "Encoding error: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kodierungsfehler: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encoding error: %@"
           }
         }
       }
@@ -804,7 +1304,20 @@
       }
     },
     "Enter your token" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geben Sie Ihr Token ein"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your token"
+          }
+        }
+      }
     },
     "Erinnerung erreicht" : {
       "localizations" : {
@@ -817,7 +1330,20 @@
       }
     },
     "Erneut versuchen" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retry"
+          }
+        }
+      }
     },
     "Error" : {
       "extractionState" : "stale",
@@ -869,6 +1395,12 @@
     },
     "Erstellt (älteste zuerst)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellt (älteste zuerst)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -879,6 +1411,12 @@
     },
     "Erstellt (neueste zuerst)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellt (neueste zuerst)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -889,6 +1427,12 @@
     },
     "Es wurden keine Tickets für '%@' gefunden. Versuchen Sie es mit einer anderen Suche." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es wurden keine Tickets für '%@' gefunden. Versuchen Sie es mit einer anderen Suche."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -903,6 +1447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eskalationen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escalations"
           }
         }
       }
@@ -929,6 +1479,12 @@
     },
     "Eskalierte" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eskalierte"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -939,6 +1495,12 @@
     },
     "Eskalierte Tickets" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eskalierte Tickets"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -953,6 +1515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Läuft ab am %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expires on %@"
           }
         }
       }
@@ -1005,6 +1573,22 @@
         }
       }
     },
+    "Failed to load details: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details konnten nicht geladen werden: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load details: %@"
+          }
+        }
+      }
+    },
     "Failed to load notifications: %@" : {
       "localizations" : {
         "de" : {
@@ -1021,6 +1605,54 @@
         }
       }
     },
+    "Failed to load products" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkte konnten nicht geladen werden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load products"
+          }
+        }
+      }
+    },
+    "Failed to load tickets: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tickets konnten nicht geladen werden: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load tickets: %@"
+          }
+        }
+      }
+    },
+    "Failed to load users: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzer konnten nicht geladen werden: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load users: %@"
+          }
+        }
+      }
+    },
     "Failed to mark as read: %@" : {
       "localizations" : {
         "de" : {
@@ -1033,6 +1665,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Failed to mark as read: %@"
+          }
+        }
+      }
+    },
+    "Failed to update ticket: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket konnte nicht aktualisiert werden: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to update ticket: %@"
           }
         }
       }
@@ -1055,6 +1703,12 @@
     },
     "Fehler" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1064,10 +1718,45 @@
       }
     },
     "Fehler beim Laden: %@" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler beim Laden: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load: %@"
+          }
+        }
+      }
+    },
+    "Fehler beim Verarbeiten der Antwort: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler beim Verarbeiten der Antwort: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error processing response: %@"
+          }
+        }
+      }
     },
     "Fertig" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1078,6 +1767,12 @@
     },
     "Filter" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1088,6 +1783,12 @@
     },
     "Filter konfigurieren" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter konfigurieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1098,6 +1799,12 @@
     },
     "Filter speichern" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter speichern"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1108,6 +1815,12 @@
     },
     "Filter zurücksetzen" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter zurücksetzen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1118,6 +1831,12 @@
     },
     "Filter-Name" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter-Name"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1127,7 +1846,20 @@
       }
     },
     "First Name" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorname"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First Name"
+          }
+        }
+      }
     },
     "Free" : {
       "localizations" : {
@@ -1146,10 +1878,29 @@
       }
     },
     "Freischalten" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Freischalten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock"
+          }
+        }
+      }
     },
     "Geben Sie einen Namen für diesen Filter ein." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geben Sie einen Namen für diesen Filter ein."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1175,6 +1926,12 @@
             "state" : "translated",
             "value" : "Generieren"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generate"
+          }
         }
       }
     },
@@ -1196,6 +1953,12 @@
             "state" : "translated",
             "value" : "Generierte Antwort"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generated Response"
+          }
         }
       }
     },
@@ -1205,6 +1968,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Generiere..."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generating..."
           }
         }
       }
@@ -1227,6 +1996,12 @@
             "state" : "translated",
             "value" : "Premium holen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Premium"
+          }
         }
       }
     },
@@ -1237,6 +2012,12 @@
             "state" : "translated",
             "value" : "Zu Einstellungen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to Settings"
+          }
         }
       }
     },
@@ -1246,6 +2027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gruppe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Group"
           }
         }
       }
@@ -1271,6 +2058,12 @@
             "state" : "translated",
             "value" : "Gruppen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groups"
+          }
         }
       }
     },
@@ -1280,6 +2073,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hallo Welt!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello, world!"
+          }
+        }
+      }
+    },
+    "HTTP Error: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP-Fehler: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP Error: %@"
           }
         }
       }
@@ -1296,7 +2111,20 @@
       }
     },
     "https://api.openai.com/v1" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://api.openai.com/v1"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://api.openai.com/v1"
+          }
+        }
+      }
     },
     "Initial Article" : {
       "localizations" : {
@@ -1304,6 +2132,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erster Artikel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Initial Article"
           }
         }
       }
@@ -1315,11 +2149,30 @@
             "state" : "translated",
             "value" : "Installation über Zammad Admin > Pakete."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install via Zammad Admin > Packages."
+          }
         }
       }
     },
     "Internal Note" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interne Notiz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internal Note"
+          }
+        }
+      }
     },
     "Invalid API endpoint URL" : {
       "localizations" : {
@@ -1327,6 +2180,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ungültige API-Endpunkt URL"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid API endpoint URL"
+          }
+        }
+      }
+    },
+    "Invalid response" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Antwort"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid response"
           }
         }
       }
@@ -1337,6 +2212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ungültige Antwort von API"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid response from API"
           }
         }
       }
@@ -1357,8 +2238,30 @@
         }
       }
     },
+    "Invalid URL" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige URL"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid URL"
+          }
+        }
+      }
+    },
     "Keine Ergebnisse gefunden" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Ergebnisse gefunden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1368,13 +2271,45 @@
       }
     },
     "Keine Overview" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Übersicht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No overview"
+          }
+        }
+      }
     },
     "Keine Overviews verfügbar" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Übersichten verfügbar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No overviews available"
+          }
+        }
+      }
     },
     "Keine ungelesenen Benachrichtigungen" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine ungelesenen Benachrichtigungen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1394,7 +2329,20 @@
       }
     },
     "Last Name" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachname"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Name"
+          }
+        }
+      }
     },
     "Load Models" : {
       "extractionState" : "stale",
@@ -1418,6 +2366,22 @@
         }
       }
     },
+    "Loading tickets..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tickets werden geladen..."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading tickets..."
+          }
+        }
+      }
+    },
     "Logging in" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1436,6 +2400,12 @@
             "state" : "translated",
             "value" : "Anmelden"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login"
+          }
         }
       }
     },
@@ -1445,6 +2415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anmelden Taste"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login Button"
           }
         }
       }
@@ -1483,6 +2459,12 @@
             "state" : "translated",
             "value" : "Abo verwalten"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage Subscription"
+          }
         }
       }
     },
@@ -1515,11 +2497,23 @@
             "state" : "translated",
             "value" : "Stammdaten"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Master Data"
+          }
         }
       }
     },
     "Meine" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1530,6 +2524,12 @@
     },
     "Meine abonnierten Tickets" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine abonnierten Tickets"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1540,6 +2540,12 @@
     },
     "Meine zugewiesenen Tickets" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine zugewiesenen Tickets"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1555,11 +2561,30 @@
             "state" : "translated",
             "value" : "Erwähnungen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mentions"
+          }
         }
       }
     },
     "Message" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachricht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message"
+          }
+        }
+      }
     },
     "Model" : {
       "localizations" : {
@@ -1578,6 +2603,12 @@
             "state" : "translated",
             "value" : "Modellauswahl"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model Selection"
+          }
         }
       }
     },
@@ -1587,6 +2618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Monatliches Abo"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monthly Subscription"
           }
         }
       }
@@ -1609,6 +2646,12 @@
             "state" : "translated",
             "value" : "Name: %@"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name: %@"
+          }
         }
       }
     },
@@ -1619,6 +2662,12 @@
             "state" : "translated",
             "value" : "Negativ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Negative"
+          }
         }
       }
     },
@@ -1628,6 +2677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Negative Antwort"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Negative Response"
           }
         }
       }
@@ -1649,6 +2704,12 @@
             "state" : "translated",
             "value" : "Netzwerkfehler: %@"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network error: %@"
+          }
         }
       }
     },
@@ -1658,6 +2719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neues Ticket"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Ticket"
           }
         }
       }
@@ -1678,8 +2745,30 @@
         }
       }
     },
+    "Nicht autorisiert. Bitte erneut anmelden." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht autorisiert. Bitte erneut anmelden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unauthorized. Please log in again."
+          }
+        }
+      }
+    },
     "Nicht zugewiesene" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht zugewiesene"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1690,6 +2779,12 @@
     },
     "Nicht zugewiesene Tickets" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht zugewiesene Tickets"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1705,6 +2800,12 @@
             "state" : "translated",
             "value" : "Kein aktives Abonnement"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Active Subscription"
+          }
         }
       }
     },
@@ -1714,6 +2815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine aktiven Abonnements gefunden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No active subscriptions found"
           }
         }
       }
@@ -1725,6 +2832,12 @@
             "state" : "translated",
             "value" : "Kein API-Endpunkt konfiguriert"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No API endpoint configured"
+          }
         }
       }
     },
@@ -1735,11 +2848,30 @@
             "state" : "translated",
             "value" : "Kein API-Key konfiguriert"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No API key configured"
+          }
         }
       }
     },
     "No Customers Found" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Kunden gefunden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Customers Found"
+          }
+        }
+      }
     },
     "No model selected" : {
       "localizations" : {
@@ -1747,6 +2879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kein Modell ausgewählt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No model selected"
           }
         }
       }
@@ -1780,6 +2918,12 @@
             "state" : "translated",
             "value" : "Noch keine Antwort generiert"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No response generated yet"
+          }
         }
       }
     },
@@ -1795,10 +2939,36 @@
       }
     },
     "No Text Modules" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Textbausteine"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Text Modules"
+          }
+        }
+      }
     },
     "No text modules are available in the system." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im System sind keine Textbausteine verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No text modules are available in the system."
+          }
+        }
+      }
     },
     "No Tickets Found" : {
 
@@ -1815,13 +2985,52 @@
       }
     },
     "No Users Found" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Benutzer gefunden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Users Found"
+          }
+        }
+      }
     },
     "None" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None"
+          }
+        }
+      }
     },
     "Note" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        }
+      }
     },
     "Notifications" : {
       "localizations" : {
@@ -1834,13 +3043,45 @@
       }
     },
     "Notifications Disabled" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen deaktiviert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications Disabled"
+          }
+        }
+      }
     },
     "Notifications Enabled" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen aktiviert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications Enabled"
+          }
+        }
+      }
     },
     "Nummer (hoch zu niedrig)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nummer (hoch zu niedrig)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1851,6 +3092,12 @@
     },
     "Nummer (niedrig zu hoch)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nummer (niedrig zu hoch)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1866,11 +3113,23 @@
             "state" : "translated",
             "value" : "Objekte"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objects"
+          }
         }
       }
     },
     "Offene" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offene"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1881,6 +3140,12 @@
     },
     "Offene Tickets" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offene Tickets"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1923,20 +3188,78 @@
             "state" : "translated",
             "value" : "Organisationen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organizations"
+          }
         }
       }
     },
     "Overviews" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersichten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overviews"
+          }
+        }
+      }
     },
     "Overviews (Premium)" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersichten (Premium)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overviews (Premium)"
+          }
+        }
+      }
     },
     "Overviews werden geladen..." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersichten werden geladen..."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading overviews..."
+          }
+        }
+      }
     },
     "Owner" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besitzer"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owner"
+          }
+        }
+      }
     },
     "Password" : {
       "localizations" : {
@@ -1945,11 +3268,30 @@
             "state" : "translated",
             "value" : "Passwort"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
         }
       }
     },
     "People" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People"
+          }
+        }
+      }
     },
     "per month" : {
       "localizations" : {
@@ -1957,6 +3299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pro Monat"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "per month"
           }
         }
       }
@@ -1968,11 +3316,30 @@
             "state" : "translated",
             "value" : "pro Jahr"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "per year"
+          }
         }
       }
     },
     "Personal Info" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Persönliche Daten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personal Info"
+          }
+        }
+      }
     },
     "Please configure API key in settings" : {
       "extractionState" : "stale",
@@ -1992,6 +3359,12 @@
             "state" : "translated",
             "value" : "Bitte konfigurieren Sie Ihren AI-API-Key in Einstellungen > AI-Einstellungen, um diese Funktion zu nutzen."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please configure your AI API key in Settings > AI Settings to use this feature."
+          }
         }
       }
     },
@@ -2001,6 +3374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bitte geben Sie eine Anweisung ein"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter a custom instruction"
           }
         }
       }
@@ -2044,6 +3423,12 @@
             "state" : "translated",
             "value" : "Bitte geben Sie einen API-Endpunkt ein"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter an API endpoint"
+          }
         }
       }
     },
@@ -2053,6 +3438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bitte geben Sie einen API-Key ein"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter an API key"
           }
         }
       }
@@ -2176,6 +3567,12 @@
             "state" : "translated",
             "value" : "Positiv"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Positive"
+          }
         }
       }
     },
@@ -2185,6 +3582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Positive Antwort"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Positive Response"
           }
         }
       }
@@ -2222,6 +3625,12 @@
             "state" : "translated",
             "value" : "Premium-Funktionen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium Features"
+          }
         }
       }
     },
@@ -2231,6 +3640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Premium erforderlich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium Required"
           }
         }
       }
@@ -2253,14 +3668,39 @@
             "state" : "translated",
             "value" : "Vorherige Kundennachrichten"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previous Customer Messages"
+          }
         }
       }
     },
     "Priorität" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priority"
+          }
+        }
+      }
     },
     "Priorität (hoch zu niedrig)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorität (hoch zu niedrig)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2271,6 +3711,12 @@
     },
     "Priorität (niedrig zu hoch)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorität (niedrig zu hoch)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2281,6 +3727,12 @@
     },
     "Priorität auswählen" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorität auswählen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2290,7 +3742,20 @@
       }
     },
     "Prioritäten" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prioritäten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorities"
+          }
+        }
+      }
     },
     "Prioritäts-Farben" : {
       "localizations" : {
@@ -2353,6 +3818,12 @@
             "state" : "translated",
             "value" : "Kauf fehlgeschlagen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Purchase failed"
+          }
         }
       }
     },
@@ -2363,6 +3834,12 @@
             "state" : "translated",
             "value" : "Kauf wartet auf Genehmigung"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Purchase pending approval"
+          }
         }
       }
     },
@@ -2372,6 +3849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Installation des Push-Benachrichtigungs-Plugins durch Ihren Admin erforderlich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push notification plugin installation required"
           }
         }
       }
@@ -2409,7 +3892,6 @@
       }
     },
     "Receive push notifications" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2420,7 +3902,20 @@
       }
     },
     "Recipients" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empfänger"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recipients"
+          }
+        }
+      }
     },
     "Regenerate" : {
       "localizations" : {
@@ -2429,11 +3924,30 @@
             "state" : "translated",
             "value" : "Neu generieren"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regenerate"
+          }
         }
       }
     },
     "Reminders" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erinnerungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders"
+          }
+        }
+      }
     },
     "Renews on %@" : {
       "localizations" : {
@@ -2442,14 +3956,32 @@
             "state" : "translated",
             "value" : "Verlängert sich am %@"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renews on %@"
+          }
         }
       }
     },
     "Reply" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antworten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reply"
+          }
+        }
+      }
     },
     "Reply to tickets" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2466,6 +3998,12 @@
             "state" : "translated",
             "value" : "Zeitüberschreitung"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request timeout"
+          }
         }
       }
     },
@@ -2475,6 +4013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zurücksetzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset to Defaults"
           }
         }
       }
@@ -2486,6 +4030,12 @@
             "state" : "translated",
             "value" : "Antwort-Vorlagen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Response Templates"
+          }
         }
       }
     },
@@ -2495,6 +4045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Antwort-Typ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Response Type"
           }
         }
       }
@@ -2506,6 +4062,12 @@
             "state" : "translated",
             "value" : "Wiederherstellung fehlgeschlagen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore failed"
+          }
         }
       }
     },
@@ -2516,6 +4078,12 @@
             "state" : "translated",
             "value" : "Käufe wiederherstellen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore Purchases"
+          }
         }
       }
     },
@@ -2525,6 +4093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wiederholen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retry"
           }
         }
       }
@@ -2546,13 +4120,45 @@
       }
     },
     "Save" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
     },
     "Save Changes" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungen speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Changes"
+          }
+        }
+      }
     },
     "Schnellauswahl" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schnellauswahl"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2572,7 +4178,20 @@
       }
     },
     "Search by name or email" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach Name oder E-Mail suchen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search by name or email"
+          }
+        }
+      }
     },
     "Search tickets..." : {
       "extractionState" : "stale",
@@ -2601,14 +4220,46 @@
             "state" : "translated",
             "value" : "Wählen Sie einen Antwort-Typ und tippen Sie auf Generieren, um eine KI-gestützte Antwort zu erstellen."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a response type and tap Generate to create an AI-powered reply."
+          }
         }
       }
     },
     "Select Customer" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunde auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Customer"
+          }
+        }
+      }
     },
     "Select Group" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppe auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Group"
+          }
+        }
+      }
     },
     "Select Model" : {
       "localizations" : {
@@ -2617,26 +4268,110 @@
             "state" : "translated",
             "value" : "Modell auswählen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Model"
+          }
         }
       }
     },
     "Select Owner" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besitzer auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Owner"
+          }
+        }
+      }
     },
     "Select Priority" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorität auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Priority"
+          }
+        }
+      }
     },
     "Select State" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select State"
+          }
+        }
+      }
     },
     "Send Reply" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort senden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send Reply"
+          }
+        }
+      }
     },
     "Send Reply Button" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort senden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send Reply Button"
+          }
+        }
+      }
     },
     "Sending reply" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort wird gesendet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sending reply"
+          }
+        }
+      }
     },
     "Server" : {
       "extractionState" : "stale",
@@ -2666,7 +4401,36 @@
       }
     },
     "Server URL" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server-URL"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server URL"
+          }
+        }
+      }
+    },
+    "Server-Fehler (HTTP %@). Bitte versuchen Sie es später erneut." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server-Fehler (HTTP %@). Bitte versuchen Sie es später erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server error (HTTP %@). Please try again later."
+          }
+        }
+      }
     },
     "Settings" : {
       "localizations" : {
@@ -2675,20 +4439,64 @@
             "state" : "translated",
             "value" : "Einstellungen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
         }
       }
     },
     "Setup Guide" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einrichtung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setup Guide"
+          }
+        }
+      }
     },
     "Sortierung" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortierung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorting"
+          }
+        }
+      }
     },
     "Speichern" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
     },
     "SSO" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2769,10 +4577,29 @@
 
     },
     "Status" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
     },
     "Status (A-Z)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status (A-Z)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2783,6 +4610,12 @@
     },
     "Status (Z-A)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status (Z-A)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2793,6 +4626,12 @@
     },
     "Status auswählen" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status auswählen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2818,7 +4657,20 @@
       }
     },
     "Subject (optional)" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betreff (optional)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subject (optional)"
+          }
+        }
+      }
     },
     "Subscribe Now" : {
       "localizations" : {
@@ -2826,6 +4678,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jetzt abonnieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscribe Now"
           }
         }
       }
@@ -2837,6 +4695,12 @@
             "state" : "translated",
             "value" : "Abonnement"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscription"
+          }
         }
       }
     },
@@ -2847,11 +4711,23 @@
             "state" : "translated",
             "value" : "Abo-Details"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscription Details"
+          }
         }
       }
     },
     "Suche" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2861,12 +4737,33 @@
       }
     },
     "Suche läuft..." : {
-      "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche läuft..."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Searching..."
+          }
+        }
+      }
+    },
+    "Suchfehler: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchfehler: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search error: %@"
           }
         }
       }
@@ -2883,13 +4780,52 @@
       }
     },
     "System Permission" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Systemberechtigung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System Permission"
+          }
+        }
+      }
     },
     "Tammad" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tammad"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tammad"
+          }
+        }
+      }
     },
     "Templates" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorlagen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Templates"
+          }
+        }
+      }
     },
     "Terms of Service" : {
       "localizations" : {
@@ -2914,6 +4850,12 @@
             "state" : "translated",
             "value" : "Testen & Speichern"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test & Save"
+          }
         }
       }
     },
@@ -2935,11 +4877,30 @@
             "state" : "translated",
             "value" : "Teste..."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testing..."
+          }
         }
       }
     },
     "Text Modules" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Textbausteine"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Modules"
+          }
+        }
+      }
     },
     "Ticket #%@" : {
       "localizations" : {
@@ -2958,7 +4919,20 @@
       }
     },
     "Ticket Assignment" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket-Zuweisung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket Assignment"
+          }
+        }
+      }
     },
     "Ticket Info" : {
       "localizations" : {
@@ -2967,15 +4941,40 @@
             "state" : "translated",
             "value" : "Ticket Infos"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket Info"
+          }
         }
       }
     },
     "Ticket Updates" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket-Aktualisierungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket Updates"
+          }
+        }
+      }
     },
     "Tickets" : {
       "localizations" : {
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tickets"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tickets"
@@ -2995,6 +4994,12 @@
     },
     "Tickets suchen..." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tickets suchen..."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3005,6 +5010,12 @@
     },
     "Titel (A-Z)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel (A-Z)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3015,6 +5026,12 @@
     },
     "Titel (Z-A)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel (Z-A)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3030,14 +5047,46 @@
             "state" : "translated",
             "value" : "Titel"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
         }
       }
     },
     "Title *" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel *"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title *"
+          }
+        }
+      }
     },
     "To" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To"
+          }
+        }
+      }
     },
     "To Plugin" : {
       "localizations" : {
@@ -3056,16 +5105,71 @@
       }
     },
     "To receive push notifications, you need to install the Zammad Push Plugin on your server." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um Push-Benachrichtigungen zu erhalten, müssen Sie das Zammad Push Plugin auf Ihrem Server installieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To receive push notifications, you need to install the Zammad Push Plugin on your server."
+          }
+        }
+      }
+    },
+    "Token" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Token"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Token"
+          }
+        }
+      }
     },
     "Tone" : {
 
     },
     "Triggers" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auslöser"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Triggers"
+          }
+        }
+      }
     },
     "Try a different search term." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versuchen Sie einen anderen Suchbegriff."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a different search term."
+          }
+        }
+      }
     },
     "Type" : {
       "localizations" : {
@@ -3073,6 +5177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Typ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
           }
         }
       }
@@ -3083,6 +5193,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Typ: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type: %@"
+          }
+        }
+      }
+    },
+    "Unauthorized" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht autorisiert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unauthorized"
           }
         }
       }
@@ -3119,12 +5251,34 @@
         }
       }
     },
+    "Ungültige URL. Bitte Server-Einstellungen überprüfen." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige URL. Bitte Server-Einstellungen überprüfen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid URL. Please check the server settings."
+          }
+        }
+      }
+    },
     "Unlock all features" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle Funktionen freischalten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock all features"
           }
         }
       }
@@ -3158,6 +5312,12 @@
             "state" : "translated",
             "value" : "Benutzername / E-Mail"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username / Email"
+          }
         }
       }
     },
@@ -3179,6 +5339,12 @@
     },
     "Warten erreicht" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warten erreicht"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3226,6 +5392,12 @@
             "state" : "translated",
             "value" : "Jährliches Abo"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yearly Subscription"
+          }
         }
       }
     },
@@ -3233,7 +5405,20 @@
 
     },
     "Zammad for iOS" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zammad für iOS"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zammad for iOS"
+          }
+        }
+      }
     },
     "Zammad Login" : {
       "extractionState" : "stale",
@@ -3247,7 +5432,20 @@
       }
     },
     "zammad.example.com" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zammad.example.com"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zammad.example.com"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
