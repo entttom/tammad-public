@@ -1669,6 +1669,9 @@
         }
       }
     },
+    "Failed to search users: %@" : {
+
+    },
     "Failed to update ticket: %@" : {
       "localizations" : {
         "de" : {
@@ -4569,6 +4572,12 @@
           }
         }
       }
+    },
+    "Start typing to search for customers." : {
+
+    },
+    "Start typing to search for users." : {
+
     },
     "State" : {
 
