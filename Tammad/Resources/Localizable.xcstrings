@@ -75,6 +75,16 @@
         }
       }
     },
+    "%@, #%@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, #%2$@, %3$@"
+          }
+        }
+      }
+    },
     "%d days free trial" : {
       "localizations" : {
         "de" : {
@@ -242,6 +252,9 @@
           }
         }
       }
+    },
+    "Abonnierte" : {
+
     },
     "About AI Integration" : {
       "localizations" : {
@@ -451,6 +464,9 @@
         }
       }
     },
+    "Aktualisieren" : {
+
+    },
     "Aktualisiert" : {
       "localizations" : {
         "en" : {
@@ -524,6 +540,9 @@
           }
         }
       }
+    },
+    "Alle Tickets" : {
+
     },
     "Antworten" : {
       "localizations" : {
@@ -663,10 +682,14 @@
         }
       }
     },
+    "Ausklappen" : {
+
+    },
     "Auth Type" : {
 
     },
     "Authentication Method" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -858,6 +881,9 @@
         }
       }
     },
+    "Composer schließen" : {
+
+    },
     "Configure your own AI API to generate intelligent responses to ticket messages. The API key is stored securely in your device's keychain." : {
       "localizations" : {
         "de" : {
@@ -943,6 +969,9 @@
           }
         }
       }
+    },
+    "Created" : {
+
     },
     "Creating ticket" : {
       "extractionState" : "stale",
@@ -1233,6 +1262,9 @@
         }
       }
     },
+    "Einklappen" : {
+
+    },
     "Einstellungen" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1318,6 +1350,9 @@
           }
         }
       }
+    },
+    "Entwurf" : {
+
     },
     "Erinnerung erreicht" : {
       "localizations" : {
@@ -1992,6 +2027,9 @@
         }
       }
     },
+    "Gespeicherte Filter" : {
+
+    },
     "Get Premium" : {
       "localizations" : {
         "de" : {
@@ -2177,6 +2215,9 @@
         }
       }
     },
+    "Interne Notiz" : {
+
+    },
     "Invalid API endpoint URL" : {
       "localizations" : {
         "de" : {
@@ -2256,6 +2297,9 @@
           }
         }
       }
+    },
+    "Kein Ticket ausgewählt" : {
+
     },
     "Keine Ergebnisse gefunden" : {
       "localizations" : {
@@ -2540,6 +2584,9 @@
           }
         }
       }
+    },
+    "Meine Tickets" : {
+
     },
     "Meine zugewiesenen Tickets" : {
       "localizations" : {
@@ -3173,8 +3220,10 @@
         }
       }
     },
+    "Open" : {
+
+    },
     "Organization" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3265,6 +3314,7 @@
       }
     },
     "Password" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4404,6 +4454,7 @@
       }
     },
     "Server URL" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4761,6 +4812,9 @@
         }
       }
     },
+    "Suche löschen" : {
+
+    },
     "Suchfehler: %@" : {
       "localizations" : {
         "de" : {
@@ -4974,6 +5028,9 @@
           }
         }
       }
+    },
+    "Ticketnummer kopieren" : {
+
     },
     "Tickets" : {
       "localizations" : {
@@ -5276,6 +5333,9 @@
         }
       }
     },
+    "Unknown" : {
+
+    },
     "Unlock all features" : {
       "localizations" : {
         "de" : {
@@ -5291,6 +5351,9 @@
           }
         }
       }
+    },
+    "Updated" : {
+
     },
     "URL (e.g. zammad.example.com)" : {
       "extractionState" : "stale",
@@ -5315,6 +5378,7 @@
       }
     },
     "Username / Email" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5346,6 +5410,9 @@
         }
       }
     },
+    "Wählen Sie ein Ticket aus der Liste, der Suche oder den Benachrichtigungen aus." : {
+
+    },
     "Warten erreicht" : {
       "localizations" : {
         "de" : {
@@ -5361,6 +5428,9 @@
           }
         }
       }
+    },
+    "Weitere Aktionen" : {
+
     },
     "Weitere Prioritäts-Farben" : {
       "localizations" : {
