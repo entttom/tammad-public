@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA256A3F2EF183DF00119498 /* StoreKit1.storekit in Resources */ = {isa = PBXBuildFile; fileRef = AA256A3E2EF183DF00119498 /* StoreKit1.storekit */; };
+		0DB2A9F7B63AAADA70AC048D /* DateUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A887AFB8D3F1B04348BBA7E /* DateUtilsTests.swift */; };
+		613530BA0DA048D5D9AAB8EE /* UserExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A41A62021EC87D5A6516711 /* UserExperienceTests.swift */; };
 		AA8FDCA92EDC6A960099FA1A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = AA8FDCA82EDC6A960099FA1A /* FirebaseCore */; };
 		AA8FDCAB2EDC6A960099FA1A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AA8FDCAA2EDC6A960099FA1A /* FirebaseMessaging */; };
+		AB6EF70F278EB6A5C9253B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB30EDBCC4117BE3A8AFB6B7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C88403BDCFFFBC93BA232C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE0A47E2ED7517D0064355B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE0A4852ED7517D0064355B;
+			remoteInfo = Tammad;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1A41A62021EC87D5A6516711 /* UserExperienceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserExperienceTests.swift; sourceTree = "<group>"; };
+		2843504926DFC3B3F56AA1E8 /* TammadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TammadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A887AFB8D3F1B04348BBA7E /* DateUtilsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateUtilsTests.swift; sourceTree = "<group>"; };
 		AA256A3E2EF183DF00119498 /* StoreKit1.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = StoreKit1.storekit; path = Tammad/StoreKit1.storekit; sourceTree = "<group>"; };
 		AAE0A4862ED7517D0064355B /* Tammad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tammad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB30EDBCC4117BE3A8AFB6B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -26,6 +42,14 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A60175269DEDFE275B0B7751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6EF70F278EB6A5C9253B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAE0A4832ED7517D0064355B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,12 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9D1FCDDA394AB705170C0D3 /* TammadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A41A62021EC87D5A6516711 /* UserExperienceTests.swift */,
+				8A887AFB8D3F1B04348BBA7E /* DateUtilsTests.swift */,
+			);
+			path = TammadTests;
+			sourceTree = "<group>";
+		};
 		AAE0A47D2ED7517D0064355B = {
 			isa = PBXGroup;
 			children = (
 				AA256A3E2EF183DF00119498 /* StoreKit1.storekit */,
 				AAE0A4882ED7517D0064355B /* Tammad */,
 				AAE0A4872ED7517D0064355B /* Products */,
+				C3CC8442307ACCB22555B008 /* Frameworks */,
+				A9D1FCDDA394AB705170C0D3 /* TammadTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +86,25 @@
 			isa = PBXGroup;
 			children = (
 				AAE0A4862ED7517D0064355B /* Tammad.app */,
+				2843504926DFC3B3F56AA1E8 /* TammadTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C3CC8442307ACCB22555B008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E800D903A88D33F0570592D3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E800D903A88D33F0570592D3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB30EDBCC4117BE3A8AFB6B7 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +133,24 @@
 			productName = Tammad;
 			productReference = AAE0A4862ED7517D0064355B /* Tammad.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E0CF855C6C42976D415C4C1B /* TammadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B7D8999A295A5E72DEE1EC /* Build configuration list for PBXNativeTarget "TammadTests" */;
+			buildPhases = (
+				7C6198FFAD1E86E6578A7438 /* Sources */,
+				A60175269DEDFE275B0B7751 /* Frameworks */,
+				1AC9B14C02FFC061B9851E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73E3DDBAA2CCF6E6028D5E5 /* PBXTargetDependency */,
+			);
+			name = TammadTests;
+			productName = TammadTests;
+			productReference = 2843504926DFC3B3F56AA1E8 /* TammadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -115,22 +185,38 @@
 			projectRoot = "";
 			targets = (
 				AAE0A4852ED7517D0064355B /* Tammad */,
+				E0CF855C6C42976D415C4C1B /* TammadTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1AC9B14C02FFC061B9851E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAE0A4842ED7517D0064355B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA256A3F2EF183DF00119498 /* StoreKit1.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7C6198FFAD1E86E6578A7438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613530BA0DA048D5D9AAB8EE /* UserExperienceTests.swift in Sources */,
+				0DB2A9F7B63AAADA70AC048D /* DateUtilsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAE0A4822ED7517D0064355B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,7 +226,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C73E3DDBAA2CCF6E6028D5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tammad;
+			target = AAE0A4852ED7517D0064355B /* Tammad */;
+			targetProxy = C88403BDCFFFBC93BA232C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		03B2C0577B09F0A6288E624B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entner.Tammad.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tammad.app/Tammad";
+			};
+			name = Debug;
+		};
+		26CF9C86B9A58B680E3E71D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entner.Tammad.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tammad.app/Tammad";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		AAE0A48F2ED7517F0064355B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -290,7 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 1.3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.entner.Tammad.Tammad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -342,7 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 1.3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.entner.Tammad.Tammad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -364,6 +498,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		31B7D8999A295A5E72DEE1EC /* Build configuration list for PBXNativeTarget "TammadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CF9C86B9A58B680E3E71D4 /* Release */,
+				03B2C0577B09F0A6288E624B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AAE0A4812ED7517D0064355B /* Build configuration list for PBXProject "Tammad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

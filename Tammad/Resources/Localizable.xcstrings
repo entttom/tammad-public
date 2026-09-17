@@ -40,6 +40,9 @@
         }
       }
     },
+    "#123456" : {
+
+    },
     "%@ (inaktiv)" : {
 
     },
@@ -71,16 +74,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@ %2$@"
-          }
-        }
-      }
-    },
-    "%@, #%@, %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@, #%2$@, %3$@"
           }
         }
       }
@@ -238,6 +231,7 @@
       }
     },
     "Abonniert" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -300,6 +294,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Active Subscription"
+          }
+        }
+      }
+    },
+    "Add Internal Note" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interne Notiz speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Internal Note"
           }
         }
       }
@@ -689,7 +700,6 @@
 
     },
     "Authentication Method" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -775,6 +785,7 @@
       }
     },
     "Benachrichtigungen" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -865,6 +876,23 @@
         }
       }
     },
+    "Clear Filter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter zurücksetzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear Filter"
+          }
+        }
+      }
+    },
     "Close" : {
       "localizations" : {
         "de" : {
@@ -896,6 +924,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Configure your own AI API to generate intelligent responses to ticket messages. The API key is stored securely in your device's keychain."
+          }
+        }
+      }
+    },
+    "Connect with your Zammad account." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melde dich mit deinem Zammad-Konto an."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect with your Zammad account."
           }
         }
       }
@@ -1070,6 +1115,9 @@
         }
       }
     },
+    "Customer name" : {
+
+    },
     "Decoding error: %@" : {
       "localizations" : {
         "de" : {
@@ -1118,6 +1166,40 @@
         }
       }
     },
+    "Discard Draft" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwurf verwerfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discard Draft"
+          }
+        }
+      }
+    },
+    "Discard this draft?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwurf verwerfen?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discard this draft?"
+          }
+        }
+      }
+    },
     "Done" : {
       "localizations" : {
         "de" : {
@@ -1151,6 +1233,7 @@
       }
     },
     "Double tap to send the reply" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1200,6 +1283,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dr. Thomas Entner"
+          }
+        }
+      }
+    },
+    "Dunkel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dunkel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark"
           }
         }
       }
@@ -1740,6 +1840,7 @@
       }
     },
     "Fehler" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1799,6 +1900,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        }
+      }
+    },
+    "Fields marked * are required, including the message." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Felder mit * und die Nachricht sind erforderlich."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fields marked * are required, including the message."
           }
         }
       }
@@ -1879,6 +1997,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Filter Name"
+          }
+        }
+      }
+    },
+    "Filtered Tickets" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gefilterte Tickets"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtered Tickets"
           }
         }
       }
@@ -2108,6 +2243,23 @@
         }
       }
     },
+    "Hell" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hell"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light"
+          }
+        }
+      }
+    },
     "Hello, world!" : {
       "localizations" : {
         "de" : {
@@ -2298,6 +2450,23 @@
         }
       }
     },
+    "Keep Editing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep Editing"
+          }
+        }
+      }
+    },
     "Kein Ticket ausgewählt" : {
 
     },
@@ -2350,6 +2519,7 @@
       }
     },
     "Keine ungelesenen Benachrichtigungen" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2402,6 +2572,23 @@
         }
       }
     },
+    "Load More Tickets" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weitere Tickets laden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Load More Tickets"
+          }
+        }
+      }
+    },
     "Loading models..." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -2409,6 +2596,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lade Modelle..."
+          }
+        }
+      }
+    },
+    "Loading notifications…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen werden geladen …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading notifications…"
           }
         }
       }
@@ -2554,6 +2758,7 @@
       }
     },
     "Meine" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2779,6 +2984,23 @@
         }
       }
     },
+    "New ticket updates will appear here." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Benachrichtigungen zu deinen Tickets erscheinen hier."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New ticket updates will appear here."
+          }
+        }
+      }
+    },
     "New Tickets" : {
       "localizations" : {
         "de" : {
@@ -2923,6 +3145,23 @@
         }
       }
     },
+    "No Matching Tickets" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine passenden Tickets"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Matching Tickets"
+          }
+        }
+      }
+    },
     "No model selected" : {
       "localizations" : {
         "de" : {
@@ -3022,6 +3261,23 @@
     },
     "No Tickets Found" : {
 
+    },
+    "No tickets match this filter. Try another filter or show all tickets." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für diesen Filter gibt es keine Tickets. Wähle einen anderen Filter oder zeige alle Tickets an."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No tickets match this filter. Try another filter or show all tickets."
+          }
+        }
+      }
     },
     "No user data available" : {
       "extractionState" : "stale",
@@ -3173,6 +3429,7 @@
       }
     },
     "Offene" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3216,6 +3473,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        }
+      }
+    },
+    "Only your team can see this note. No email will be sent." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Notiz ist nur für dein Team sichtbar. Es wird keine E-Mail versendet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only your team can see this note. No email will be sent."
           }
         }
       }
@@ -3314,7 +3588,6 @@
       }
     },
     "Password" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3795,6 +4068,7 @@
       }
     },
     "Prioritäten" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4395,6 +4669,7 @@
       }
     },
     "Send Reply Button" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4454,7 +4729,6 @@
       }
     },
     "Server URL" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4514,6 +4788,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Setup Guide"
+          }
+        }
+      }
+    },
+    "Signing In…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anmelden …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signing In…"
           }
         }
       }
@@ -4651,6 +4942,9 @@
           }
         }
       }
+    },
+    "Status · Priority" : {
+
     },
     "Status (A-Z)" : {
       "localizations" : {
@@ -5013,6 +5307,9 @@
         }
       }
     },
+    "Ticket subject and details" : {
+
+    },
     "Ticket Updates" : {
       "localizations" : {
         "de" : {
@@ -5269,6 +5566,74 @@
         }
       }
     },
+    "Unable to Load" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden nicht möglich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to Load"
+          }
+        }
+      }
+    },
+    "Unable to Open Attachment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anhang lässt sich nicht öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to Open Attachment"
+          }
+        }
+      }
+    },
+    "Unable to Open Ticket" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket lässt sich nicht öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to Open Ticket"
+          }
+        }
+      }
+    },
+    "Unable to open ticket: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket lässt sich nicht öffnen: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to open ticket: %@"
+          }
+        }
+      }
+    },
     "Unauthorized" : {
       "localizations" : {
         "de" : {
@@ -5355,6 +5720,23 @@
     "Updated" : {
 
     },
+    "Updated: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiert: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updated: %@"
+          }
+        }
+      }
+    },
     "URL (e.g. zammad.example.com)" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -5378,7 +5760,6 @@
       }
     },
     "Username / Email" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5464,6 +5845,23 @@
         }
       }
     },
+    "Write your message…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreibe deine Nachricht …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write your message…"
+          }
+        }
+      }
+    },
     "Yearly Subscription" : {
       "localizations" : {
         "de" : {
@@ -5482,6 +5880,40 @@
     },
     "You don't have any tickets yet. Create one to get started!" : {
 
+    },
+    "You're All Caught Up" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles auf dem neuesten Stand"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You're All Caught Up"
+          }
+        }
+      }
+    },
+    "Your reply will be sent to the recipients below." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Antwort wird an die folgenden Empfänger versendet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your reply will be sent to the recipients below."
+          }
+        }
+      }
     },
     "Zammad for iOS" : {
       "localizations" : {
