@@ -35,6 +35,12 @@ With Tammad, you can manage your Zammad tickets on the go:
 
 Tammad is ideal for teams and individuals who use Zammad and want to stay reachable while on the move. Whether it is a quick reply, a short follow-up, or a fast check on the current status, Tammad keeps mobile access simple.
 
+### AI assistance (Premium)
+
+Use the writing tools configured on your Zammad server, or keep your own OpenAI-compatible provider. Existing API-key configurations are preserved; eligible existing users receive a one-time provider choice after the update. External fallback requires explicit opt-in. Full native replies require suitable, verified server instructions and explicitly assigned tools.
+
+Setup, limitations and validation: [Native Zammad AI integration](Docs/Native-Zammad-AI.md).
+
 ### Requirements
 
 To use Tammad, you need:
@@ -80,6 +86,12 @@ Mit Tammad kannst du deine Zammad-Tickets direkt mobil verwalten:
 ### Für wen die App gedacht ist
 
 Tammad ist ideal für Teams und Einzelpersonen, die Zammad nutzen und auch unterwegs erreichbar bleiben wollen. Ob kurze Rückfrage, schnelle Ticket-Antwort oder ein rascher Blick auf den aktuellen Stand: Tammad macht den mobilen Zugriff unkompliziert.
+
+### KI-Unterstützung (Premium)
+
+Nutze die Schreibwerkzeuge deines Zammad-Servers oder deinen eigenen OpenAI-kompatiblen Anbieter. Bestehende API-Schlüssel-Konfigurationen bleiben erhalten; berechtigte Bestandsnutzer erhalten nach dem Update eine einmalige Anbieter-Auswahl. Externer Fallback erfordert eine ausdrückliche Zustimmung. Vollständige native Antworten benötigen geeignete, geprüfte Servervorgaben und ausdrücklich zugeordnete Werkzeuge.
+
+Einrichtung, Einschränkungen und Prüfung: [Native Zammad-KI-Integration](Docs/Native-Zammad-AI.md).
 
 ### Voraussetzungen
 

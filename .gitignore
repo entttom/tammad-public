@@ -31,6 +31,14 @@ xcuserdata/
 Pods/
 *.xcworkspace
 !default.xcworkspace
+# Paketversionen festhalten (reproduzierbare Builds): nur Package.resolved versionieren
+!Tammad.xcodeproj/project.xcworkspace/
+Tammad.xcodeproj/project.xcworkspace/*
+!Tammad.xcodeproj/project.xcworkspace/xcshareddata/
+Tammad.xcodeproj/project.xcworkspace/xcshareddata/*
+!Tammad.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+Tammad.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/*
+!Tammad.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
 
 # Carthage
 Carthage/Build/
@@ -66,3 +74,6 @@ vendor/bundle/
 .cache/
 
 GoogleService-Info.plist
+# Lokale Claude-Code-Dateien (Einstellungen, Agenten-Worktrees)
+.claude/settings.local.json
+.claude/worktrees/
