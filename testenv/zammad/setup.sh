@@ -65,7 +65,7 @@ fi
 echo "→ Lege Testdaten an"
 compose exec -T zammad-railsserver bash -c 'cat > /tmp/seed.rb' < "$HERE/seed.rb"
 seed_output="$(compose exec -T -e ADMIN_PASSWORD="$ADMIN_PASSWORD" -e AGENT_PASSWORD="$AGENT_PASSWORD" \
-  zammad-railsserver bundle exec rails r /tmp/seed.rb 2>&1)" || { echo "$seed_output" | tail -30 >&2; exit 1; }
+  zammad-railsserver bundle exec rails r /tmp/seed.rb 2>&1)" || { echo "$seed_output" | grep -v '^[[:space:]]*from ' | tail -30 >&2; exit 1; }
 echo "$seed_output" | grep '^SEED_OK'
 token="$(echo "$seed_output" | sed -n 's/^API_TOKEN=//p')"
 grep -v '^ADMIN_API_TOKEN=' "$CREDENTIALS" > "$CREDENTIALS.tmp" && mv "$CREDENTIALS.tmp" "$CREDENTIALS"

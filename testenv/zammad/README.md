@@ -51,6 +51,10 @@ In der App die Anmeldeart **Basic Auth** wählen. `http://` ist nur für
 - Tickets für jeden Filter: HTML-Mail mit eingebettetem Bild, Link, Script-Tag und
   PDF-Anhang; interne Notiz; überfällige Wiedervorlagen (auch im eigenen State);
   abonniertes (Mention) und nicht zugewiesenes Ticket; 24 Massentickets
+- Sichtprüfung: eigene Priorität „4 kritisch“, Status „pending close“ und „merged“, ein
+  langer Verlauf (Kunden- und Agenten-Mails, Telefonnotiz, interne Notiz, Zitat) mit Bild-
+  und Textanhang, ein überlanger Betreff mit Umlauten und Emoji, ein langer Kundenname
+- fünf Online-Benachrichtigungen für den Admin (drei ungelesen)
 - Textbausteine und eine ausgehende E-Mail-Adresse. Es gibt keinen Mailserver:
   Antworten werden angelegt, der Versand schlägt fehl und Zammad vermerkt das als Notiz.
 

@@ -11,6 +11,10 @@
 #   Script-Tag, Link, Zitat und PDF-Anhang mit "/" im Dateinamen
 # - überfällige Wiedervorlagen, Mention (Abonniert), nicht zugewiesenes Ticket
 # - 24 weitere Tickets für die Pagination (Seitengröße in der App: 15)
+# - eigene Priorität "4 kritisch" (Anzeige ohne Rangzahl), Status "pending close" und "merged"
+# - langer Verlauf (Kunden-/Agenten-Mails, Telefonnotiz, interne Notiz) mit Bild- und
+#   Textanhang, überlanger Titel mit Umlauten und Emoji, langer Kundenname
+# - Online-Benachrichtigungen für den Admin, gelesen und ungelesen
 
 require 'zlib'
 
@@ -103,18 +107,30 @@ if calendar
 end
 
 # --- Tickets ------------------------------------------------------------------
+# Zammad setzt "from" und "created_by" von Artikeln aus dem aktuellen Benutzer.
+# Ohne diesen Wechsel stünde dort der System-Benutzer ("-").
+def as_user(user)
+  previous = UserInfo.current_user_id
+  UserInfo.current_user_id = user.id
+  yield
+ensure
+  UserInfo.current_user_id = previous
+end
+
 def create_ticket(title:, group:, customer:, owner: nil, state:, priority:, body:, content_type: 'text/plain',
                   pending_time: nil, created_by:, sender: 'Customer', type: 'email', from: nil)
-  ticket = Ticket.create!(title: title, group: group, customer: customer, owner: owner || User.find(1),
-                          state: state, priority: priority, pending_time: pending_time,
-                          created_by_id: created_by.id, updated_by_id: created_by.id)
-  article = Ticket::Article.create!(ticket: ticket, type: Ticket::Article::Type.find_by!(name: type),
-                                    sender: Ticket::Article::Sender.find_by!(name: sender),
-                                    from: from || "#{customer.fullname} <#{customer.email}>",
-                                    to: 'support@tammad.test', subject: title, body: body,
-                                    content_type: content_type, internal: false,
-                                    created_by_id: created_by.id, updated_by_id: created_by.id)
-  [ticket, article]
+  as_user(created_by) do
+    ticket = Ticket.create!(title: title, group: group, customer: customer, owner: owner || User.find(1),
+                            state: state, priority: priority, pending_time: pending_time,
+                            created_by_id: created_by.id, updated_by_id: created_by.id)
+    article = Ticket::Article.create!(ticket: ticket, type: Ticket::Article::Type.find_by!(name: type),
+                                      sender: Ticket::Article::Sender.find_by!(name: sender),
+                                      from: from || "#{customer.fullname} <#{customer.email}>",
+                                      to: 'support@tammad.test', subject: title, body: body,
+                                      content_type: content_type, internal: false,
+                                      created_by_id: created_by.id, updated_by_id: created_by.id)
+    return [ticket, article]
+  end
 end
 
 if Ticket.where(title: 'Drucker im Empfang ist offline').none?
@@ -137,10 +153,12 @@ if Ticket.where(title: 'Drucker im Empfang ist offline').none?
                 filename: 'Rechnung 03/2026.pdf',
                 preferences: { 'Content-Type' => 'application/pdf', 'Mime-Type' => 'application/pdf' },
                 created_by_id: 1)
-  Ticket::Article.create!(ticket: ticket, type: Ticket::Article::Type.find_by!(name: 'note'),
-                          sender: Ticket::Article::Sender.find_by!(name: 'Agent'), from: 'Ada Admin',
-                          body: 'Interne Notiz: Techniker ist informiert. VERTRAULICH', content_type: 'text/plain',
-                          internal: true, created_by_id: admin.id, updated_by_id: admin.id)
+  as_user(admin) do
+    Ticket::Article.create!(ticket: ticket, type: Ticket::Article::Type.find_by!(name: 'note'),
+                            sender: Ticket::Article::Sender.find_by!(name: 'Agent'), from: 'Ada Admin',
+                            body: 'Interne Notiz: Techniker ist informiert. VERTRAULICH', content_type: 'text/plain',
+                            internal: true, created_by_id: admin.id, updated_by_id: admin.id)
+  end
 
   create_ticket(title: 'VPN-Zugang für neue Mitarbeiterin', group: support, customer: nameless, owner: agent,
                 state: in_progress, priority: priority.call('2 normal'), body: 'Bitte VPN einrichten.',
@@ -198,9 +216,90 @@ TextModule.find_or_create_by!(name: 'Abschluss') do |m|
   m.active = true
 end
 
+# --- Weitere Fälle für Sichtprüfungen (eigene Prüfung je Titel, damit ältere
+# Instanzen sie beim erneuten Lauf nachträglich erhalten). Nach der E-Mail-Adresse:
+# Agenten-Mails brauchen sie. --------------------------------------------------
+# Neu laden: `support` stammt vom Anfang des Skripts, vor der E-Mail-Adresse.
+support.reload
+critical = Ticket::Priority.find_or_create_by!(name: '4 kritisch') { |p| p.active = true }
+long_customer = upsert_user(login: 'lang@tammad.test', firstname: 'Maximiliane Theresa',
+                            lastname: 'von Hohenberg-Schwarzenfeld', email: 'lang@tammad.test',
+                            roles: [customer_role], organization: org)
+
+if Ticket.where(title: 'Rechnung doppelt abgebucht').none?
+  ticket, first = create_ticket(title: 'Rechnung doppelt abgebucht', group: support, customer: customer, owner: admin,
+                                state: state.call('open'), priority: critical,
+                                body: "Hallo,\n\ndie Rechnung 2026-117 wurde zweimal abgebucht. Kontoauszug anbei.\n\nGrüße\nAlex Muster",
+                                created_by: customer)
+  Store.create!(object: 'Ticket::Article', o_id: first.id, data: png(640, 400, [200, 60, 60]),
+                filename: 'Kontoauszug.png',
+                preferences: { 'Content-Type' => 'image/png', 'Mime-Type' => 'image/png' }, created_by_id: 1)
+  Store.create!(object: 'Ticket::Article', o_id: first.id, data: "Buchung 1: 49,90 €\nBuchung 2: 49,90 €\n",
+                filename: 'Buchungen März.txt',
+                preferences: { 'Content-Type' => 'text/plain', 'Mime-Type' => 'text/plain' }, created_by_id: 1)
+  conversation = [
+    { sender: 'Agent', type: 'email', internal: false, from: 'Ada Admin <admin@tammad.test>', user: admin,
+      content_type: 'text/html',
+      body: '<p>Hallo Alex,</p><p>danke für den Hinweis. Wir prüfen die Buchungen und melden uns.</p><p>Viele Grüße<br>Ada</p>' },
+    { sender: 'Agent', type: 'note', internal: true, from: 'Ada Admin', user: admin, content_type: 'text/plain',
+      body: 'Buchhaltung angefragt (Ticket bei Bruno). Rückerstattung vermutlich nötig.' },
+    { sender: 'Customer', type: 'phone', internal: false, from: 'Alex Muster', user: customer,
+      content_type: 'text/plain', body: 'Kundin hat angerufen und gefragt, wann das Geld zurückkommt.' },
+    { sender: 'Agent', type: 'email', internal: false, from: 'Bruno Agent <agent@tammad.test>', user: agent,
+      content_type: 'text/html',
+      body: '<p>Hallo Alex,</p><p>die doppelte Buchung wird bis Freitag erstattet.</p><blockquote>die Rechnung 2026-117 wurde zweimal abgebucht</blockquote><p>Grüße<br>Bruno</p>' },
+    { sender: 'Customer', type: 'email', internal: false, from: 'Alex Muster <kunde@tammad.test>', user: customer,
+      content_type: 'text/plain', body: "Danke! Bekomme ich dafür eine Gutschrift als PDF?\n\nAlex" }
+  ]
+  conversation.each do |a|
+    as_user(a[:user]) do
+      Ticket::Article.create!(ticket: ticket, type: Ticket::Article::Type.find_by!(name: a[:type]),
+                              sender: Ticket::Article::Sender.find_by!(name: a[:sender]), from: a[:from],
+                              to: a[:sender] == 'Agent' && a[:type] == 'email' ? 'kunde@tammad.test' : nil,
+                              subject: 'Re: Rechnung doppelt abgebucht', body: a[:body], content_type: a[:content_type],
+                              internal: a[:internal], created_by_id: a[:user].id, updated_by_id: a[:user].id)
+    end
+  end
+end
+
+long_title = 'Überlanger Betreff: Drucker, Scanner und Faxgerät im 3. Stock melden seit dem Umzug ' \
+             'sporadisch Papierstau 🖨️ – bitte mit Hausmeister abstimmen'
+if Ticket.where(title: long_title).none?
+  create_ticket(title: long_title, group: Group.find_by!(name: 'Gruppe 02'), customer: long_customer, owner: admin,
+                state: state.call('open'), priority: priority.call('3 high'),
+                body: 'Längerer Text, um Zeilenumbrüche und Kürzungen in der Liste zu prüfen.', created_by: long_customer)
+end
+if Ticket.where(title: 'Zugang gesperrt (wartet auf Schließen)').none?
+  create_ticket(title: 'Zugang gesperrt (wartet auf Schließen)', group: support, customer: customer, owner: admin,
+                state: state.call('pending close'), priority: priority.call('1 low'), pending_time: 2.days.from_now,
+                body: 'Passwort wurde zurückgesetzt.', created_by: customer)
+end
+if Ticket.where(title: 'Doppelte Anfrage (zusammengeführt)').none?
+  create_ticket(title: 'Doppelte Anfrage (zusammengeführt)', group: support, customer: customer, owner: admin,
+                state: state.call('merged'), priority: priority.call('2 normal'),
+                body: 'Siehe Drucker-Ticket.', created_by: customer)
+end
+
+# --- Online-Benachrichtigungen ------------------------------------------------
+# `rails r` löst keine Transaktionen aus, Zammad erzeugt sie hier also nicht selbst.
+if OnlineNotification.where(user_id: admin.id).none?
+  [
+    ['Rechnung doppelt abgebucht', 'update', false],
+    ['Server down – dringend', 'escalation', false],
+    ['Abonniertes Ticket (Mention)', 'update', false],
+    ['VPN-Zugang für neue Mitarbeiterin', 'create', true],
+    ['Erledigte Anfrage', 'update', true]
+  ].each do |title, type, seen|
+    ticket = Ticket.find_by(title: title) or next
+    OnlineNotification.add(type: type, object: 'Ticket', o_id: ticket.id, seen: seen, user_id: admin.id,
+                           created_by_id: agent.id, updated_by_id: agent.id)
+  end
+end
+
 token = Token.find_by(user: admin, action: 'api', name: 'tammad-test') ||
         Token.create!(user: admin, action: 'api', name: 'tammad-test', persistent: true,
                       preferences: { permission: %w[admin ticket.agent user_preferences] })
 
-puts "SEED_OK tickets=#{Ticket.count} groups=#{Group.count} states=#{Ticket::State.count}"
+puts "SEED_OK tickets=#{Ticket.count} groups=#{Group.count} states=#{Ticket::State.count} " \
+     "notifications=#{OnlineNotification.where(user_id: admin.id).count}"
 puts "API_TOKEN=#{token.token}"

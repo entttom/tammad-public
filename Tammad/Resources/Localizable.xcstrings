@@ -20,22 +20,6 @@
         }
       }
     },
-    "(Editable)" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "(Bearbeitbar)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "(Editable)"
-          }
-        }
-      }
-    },
     "#%@" : {
       "localizations" : {
         "de" : {
@@ -55,22 +39,6 @@
     "#123456" : {
       "shouldTranslate" : false
     },
-    "%@ (inaktiv)" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ (inaktiv)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ (inactive)"
-          }
-        }
-      }
-    },
     "%@ #%@" : {
       "localizations" : {
         "de" : {
@@ -83,6 +51,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ #%2$@"
+          }
+        }
+      }
+    },
+    "%@ (inaktiv)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (inaktiv)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (inactive)"
           }
         }
       }
@@ -146,34 +130,19 @@
         }
       }
     },
-    "•" : {
+    "(Editable)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "•"
+            "value" : "(Bearbeitbar)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "•"
-          }
-        }
-      }
-    },
-    "••••••••" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "••••••••"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "••••••••"
+            "value" : "(Editable)"
           }
         }
       }
@@ -190,6 +159,247 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A secure connection to the server could not be established. Please check the server's certificate."
+          }
+        }
+      }
+    },
+    "AI" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI"
+          }
+        }
+      }
+    },
+    "AI Action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Aktion"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Action"
+          }
+        }
+      }
+    },
+    "AI Configuration Required" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI-Konfiguration erforderlich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Configuration Required"
+          }
+        }
+      }
+    },
+    "AI Provider" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Anbieter"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Provider"
+          }
+        }
+      }
+    },
+    "AI Reply" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI-Antwort"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Reply"
+          }
+        }
+      }
+    },
+    "AI Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI-Einstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Settings"
+          }
+        }
+      }
+    },
+    "AI configuration required" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI-Konfiguration erforderlich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI configuration required"
+          }
+        }
+      }
+    },
+    "AI-powered response generation is a premium feature. Upgrade to access this functionality." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-gestützte Antwortgenerierung ist eine Premium-Funktion. Upgraden Sie, um diese Funktionalität zu nutzen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI-powered response generation is a premium feature. Upgrade to access this functionality."
+          }
+        }
+      }
+    },
+    "Anhang hinzufügen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anhang hinzufügen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Attachment"
+          }
+        }
+      }
+    },
+    "Anhang wird geladen …" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anhang wird geladen …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading attachment …"
+          }
+        }
+      }
+    },
+    "Anhängen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anhängen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attach"
+          }
+        }
+      }
+    },
+    "API Configuration" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API-Konfiguration"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Configuration"
+          }
+        }
+      }
+    },
+    "API Endpoint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API-Endpunkt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Endpoint"
+          }
+        }
+      }
+    },
+    "API Key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API-Schlüssel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Key"
+          }
+        }
+      }
+    },
+    "API error: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API-Fehler: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API error: %@"
           }
         }
       }
@@ -371,102 +581,6 @@
         }
       }
     },
-    "AI" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "KI"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI"
-          }
-        }
-      }
-    },
-    "AI configuration required" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI-Konfiguration erforderlich"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI configuration required"
-          }
-        }
-      }
-    },
-    "AI Configuration Required" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI-Konfiguration erforderlich"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI Configuration Required"
-          }
-        }
-      }
-    },
-    "AI Reply" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI-Antwort"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI Reply"
-          }
-        }
-      }
-    },
-    "AI Settings" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI-Einstellungen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI Settings"
-          }
-        }
-      }
-    },
-    "AI-powered response generation is a premium feature. Upgrade to access this functionality." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "KI-gestützte Antwortgenerierung ist eine Premium-Funktion. Upgraden Sie, um diese Funktionalität zu nutzen."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI-powered response generation is a premium feature. Upgrade to access this functionality."
-          }
-        }
-      }
-    },
     "Aktionen" : {
       "localizations" : {
         "de" : {
@@ -515,22 +629,6 @@
         }
       }
     },
-    "Aktualisiert (älteste zuerst)" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktualisiert (älteste zuerst)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Updated (oldest first)"
-          }
-        }
-      }
-    },
     "Aktualisiert (neueste zuerst)" : {
       "localizations" : {
         "de" : {
@@ -543,6 +641,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updated (newest first)"
+          }
+        }
+      }
+    },
+    "Aktualisiert (älteste zuerst)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiert (älteste zuerst)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updated (oldest first)"
           }
         }
       }
@@ -563,6 +677,22 @@
         }
       }
     },
+    "Alle Tickets" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Tickets"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All Tickets"
+          }
+        }
+      }
+    },
     "Alle als gelesen" : {
       "localizations" : {
         "de" : {
@@ -579,18 +709,50 @@
         }
       }
     },
-    "Alle Tickets" : {
+    "Allow fallback to my own AI provider" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alle Tickets"
+            "value" : "Fallback auf meinen eigenen KI-Anbieter erlauben"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "All Tickets"
+            "value" : "Allow fallback to my own AI provider"
+          }
+        }
+      }
+    },
+    "Anhang %@ entfernen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anhang %@ entfernen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove attachment %@"
+          }
+        }
+      }
+    },
+    "Anhänge" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anhänge"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attachments"
           }
         }
       }
@@ -623,70 +785,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apply"
-          }
-        }
-      }
-    },
-    "API Configuration" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API-Konfiguration"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API Configuration"
-          }
-        }
-      }
-    },
-    "API Endpoint" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API-Endpunkt"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API Endpoint"
-          }
-        }
-      }
-    },
-    "API error: %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API-Fehler: %@"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API error: %@"
-          }
-        }
-      }
-    },
-    "API Key" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API-Schlüssel"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API Key"
           }
         }
       }
@@ -771,6 +869,22 @@
         }
       }
     },
+    "Automatic (recommended)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch (empfohlen)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic (recommended)"
+          }
+        }
+      }
+    },
     "Automatic renewal" : {
       "localizations" : {
         "de" : {
@@ -799,6 +913,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Automatic renewal after trial"
+          }
+        }
+      }
+    },
+    "Automatic uses Zammad AI for supported actions. An external fallback must be enabled separately in AI Settings. Zammad's standard tools edit drafts; full replies need a suitable server configuration." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch verwendet die Zammad-KI für unterstützte Aktionen. Einen externen Fallback musst du separat in den KI-Einstellungen aktivieren. Zammads Standardwerkzeuge bearbeiten Entwürfe; vollständige Antworten benötigen eine passende Serverkonfiguration."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic uses Zammad AI for supported actions. An external fallback must be enabled separately in AI Settings. Zammad's standard tools edit drafts; full replies need a suitable server configuration."
+          }
+        }
+      }
+    },
+    "Automatic uses Zammad AI for supported actions. External services are used only when you explicitly enable fallback or choose your own provider." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch verwendet die Zammad-KI für unterstützte Aktionen. Externe Dienste werden nur verwendet, wenn du den Fallback ausdrücklich aktivierst oder deinen eigenen Anbieter auswählst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic uses Zammad AI for supported actions. External services are used only when you explicitly enable fallback or choose your own provider."
+          }
+        }
+      }
+    },
+    "Available Writing Tools" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verfügbare Schreibwerkzeuge"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Available Writing Tools"
           }
         }
       }
@@ -883,6 +1045,22 @@
         }
       }
     },
+    "CC" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CC"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CC"
+          }
+        }
+      }
+    },
     "Cancel" : {
       "localizations" : {
         "de" : {
@@ -899,18 +1077,66 @@
         }
       }
     },
-    "CC" : {
+    "Cancel Generation" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "CC"
+            "value" : "Generierung abbrechen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "CC"
+            "value" : "Cancel Generation"
+          }
+        }
+      }
+    },
+    "Check Zammad AI Again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zammad-KI erneut prüfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check Zammad AI Again"
+          }
+        }
+      }
+    },
+    "Checking Zammad AI…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zammad-KI wird geprüft …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checking Zammad AI…"
+          }
+        }
+      }
+    },
+    "Choose Your AI Provider" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Anbieter auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Your AI Provider"
           }
         }
       }
@@ -948,23 +1174,6 @@
         }
       }
     },
-    "closed" : {
-      "comment" : "Zammad ticket state",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "geschlossen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "closed"
-          }
-        }
-      }
-    },
     "Composer schließen" : {
       "localizations" : {
         "de" : {
@@ -982,6 +1191,7 @@
       }
     },
     "Configure your own AI API to generate intelligent responses to ticket messages. The API key is stored securely in your device's keychain." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1075,13 +1285,29 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fortfahren"
+            "value" : "Weiter"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continue"
+          }
+        }
+      }
+    },
+    "Could not reach Zammad AI. Check your connection and try again." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Zammad-KI ist nicht erreichbar. Prüfe deine Verbindung und versuche es erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not reach Zammad AI. Check your connection and try again."
           }
         }
       }
@@ -1194,6 +1420,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Customer name"
+          }
+        }
+      }
+    },
+    "Datei anhängen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei anhängen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attach File"
           }
         }
       }
@@ -1326,6 +1568,22 @@
         }
       }
     },
+    "Disabled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deaktiviert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disabled"
+          }
+        }
+      }
+    },
     "Discard Changes" : {
       "localizations" : {
         "de" : {
@@ -1440,6 +1698,22 @@
         }
       }
     },
+    "Draft to Edit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu bearbeitender Entwurf"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draft to Edit"
+          }
+        }
+      }
+    },
     "Dunkel" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1473,6 +1747,22 @@
         }
       }
     },
+    "Edit Draft" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwurf bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Draft"
+          }
+        }
+      }
+    },
     "Edit Ticket" : {
       "localizations" : {
         "de" : {
@@ -1485,22 +1775,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit Ticket"
-          }
-        }
-      }
-    },
-    "Edit tickets" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tickets bearbeiten"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit tickets"
           }
         }
       }
@@ -1521,6 +1795,22 @@
         }
       }
     },
+    "Edit tickets" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tickets bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit tickets"
+          }
+        }
+      }
+    },
     "Einklappen" : {
       "localizations" : {
         "de" : {
@@ -1533,6 +1823,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Collapse"
+          }
+        }
+      }
+    },
+    "Einstellungen öffnen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings"
           }
         }
       }
@@ -1565,6 +1871,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enable Notifications"
+          }
+        }
+      }
+    },
+    "Enabled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiviert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enabled"
           }
         }
       }
@@ -1665,22 +1987,6 @@
         }
       }
     },
-    "Erstellt (älteste zuerst)" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erstellt (älteste zuerst)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Created (oldest first)"
-          }
-        }
-      }
-    },
     "Erstellt (neueste zuerst)" : {
       "localizations" : {
         "de" : {
@@ -1693,6 +1999,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Created (newest first)"
+          }
+        }
+      }
+    },
+    "Erstellt (älteste zuerst)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellt (älteste zuerst)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created (oldest first)"
           }
         }
       }
@@ -1789,22 +2111,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escalated Tickets"
-          }
-        }
-      }
-    },
-    "every %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "alle %@"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "every %@"
           }
         }
       }
@@ -2211,6 +2517,38 @@
         }
       }
     },
+    "Foto anhängen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto anhängen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attach Photo"
+          }
+        }
+      }
+    },
+    "Foto aufnehmen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto aufnehmen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take Photo"
+          }
+        }
+      }
+    },
     "Free" : {
       "localizations" : {
         "de" : {
@@ -2356,6 +2694,7 @@
       }
     },
     "Go to Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2419,6 +2758,22 @@
         }
       }
     },
+    "HTTP Error: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP-Fehler: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP Error: %@"
+          }
+        }
+      }
+    },
     "Hell" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2436,34 +2791,34 @@
         }
       }
     },
-    "HTTP Error: %@" : {
+    "In native mode, your draft or the customer's message is processed by the AI provider configured by your Zammad administrator. Server quotas and provider fees may apply." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "HTTP-Fehler: %@"
+            "value" : "Im nativen Modus verarbeitet der von deinem Zammad-Administrator konfigurierte KI-Anbieter deinen Entwurf oder die Kundennachricht. Dabei können Serverkontingente und Anbietergebühren anfallen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "HTTP Error: %@"
+            "value" : "In native mode, your draft or the customer's message is processed by the AI provider configured by your Zammad administrator. Server quotas and provider fees may apply."
           }
         }
       }
     },
-    "https://api.openai.com/v1" : {
+    "In neuem Fenster öffnen" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "https://api.openai.com/v1"
+            "value" : "In neuem Fenster öffnen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "https://api.openai.com/v1"
+            "value" : "Open in New Window"
           }
         }
       }
@@ -2548,6 +2903,22 @@
         }
       }
     },
+    "Invalid URL" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige URL"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid URL"
+          }
+        }
+      }
+    },
     "Invalid email address: %@" : {
       "localizations" : {
         "de" : {
@@ -2612,22 +2983,6 @@
         }
       }
     },
-    "Invalid URL" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ungültige URL"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Invalid URL"
-          }
-        }
-      }
-    },
     "Keep Editing" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2657,6 +3012,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Ticket Selected"
+          }
+        }
+      }
+    },
+    "Kein Zugriff auf die Kamera" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Zugriff auf die Kamera"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Camera Access"
           }
         }
       }
@@ -2887,22 +3258,6 @@
         }
       }
     },
-    "Meine abonnierten Tickets" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meine abonnierten Tickets"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "My Subscribed Tickets"
-          }
-        }
-      }
-    },
     "Meine Tickets" : {
       "localizations" : {
         "de" : {
@@ -2915,6 +3270,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "My Tickets"
+          }
+        }
+      }
+    },
+    "Meine abonnierten Tickets" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine abonnierten Tickets"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My Subscribed Tickets"
           }
         }
       }
@@ -2947,23 +3318,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mentions"
-          }
-        }
-      }
-    },
-    "merged" : {
-      "comment" : "Zammad ticket state",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "zusammengefügt"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "merged"
           }
         }
       }
@@ -3028,6 +3382,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Monthly Subscription"
+          }
+        }
+      }
+    },
+    "My administrator verified that these instructions and the selected tools support full replies" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mein Administrator hat geprüft, dass diese Vorgaben und die gewählten Werkzeuge vollständige Antworten unterstützen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My administrator verified that these instructions and the selected tools support full replies"
           }
         }
       }
@@ -3112,19 +3482,18 @@
         }
       }
     },
-    "new" : {
-      "comment" : "Zammad ticket state",
+    "New Reply" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "neu"
+            "value" : "Neue Antwort"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "new"
+            "value" : "New Reply"
           }
         }
       }
@@ -3145,6 +3514,22 @@
         }
       }
     },
+    "New Tickets" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Tickets (nicht zugewiesen)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Tickets (Not Assigned)"
+          }
+        }
+      }
+    },
     "New ticket updates will appear here." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3158,22 +3543,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "New ticket updates will appear here."
-          }
-        }
-      }
-    },
-    "New Tickets" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Neue Tickets (nicht zugewiesen)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "New Tickets (Not Assigned)"
           }
         }
       }
@@ -3226,38 +3595,6 @@
         }
       }
     },
-    "No Active Subscription" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kein aktives Abonnement"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Active Subscription"
-          }
-        }
-      }
-    },
-    "No active subscriptions found" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keine aktiven Abonnements gefunden"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No active subscriptions found"
-          }
-        }
-      }
-    },
     "No API endpoint configured" : {
       "localizations" : {
         "de" : {
@@ -3286,6 +3623,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No API key configured"
+          }
+        }
+      }
+    },
+    "No Active Subscription" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein aktives Abonnement"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Active Subscription"
           }
         }
       }
@@ -3323,38 +3676,6 @@
         }
       }
     },
-    "No model selected" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kein Modell ausgewählt"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No model selected"
-          }
-        }
-      }
-    },
-    "No response generated yet" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Noch keine Antwort generiert"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No response generated yet"
-          }
-        }
-      }
-    },
     "No Text Modules" : {
       "localizations" : {
         "de" : {
@@ -3371,22 +3692,6 @@
         }
       }
     },
-    "No text modules are available in the system." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Im System sind keine Textbausteine verfügbar."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No text modules are available in the system."
-          }
-        }
-      }
-    },
     "No Tickets Found" : {
       "localizations" : {
         "de" : {
@@ -3399,23 +3704,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Tickets Found"
-          }
-        }
-      }
-    },
-    "No tickets match this filter. Try another filter or show all tickets." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Für diesen Filter gibt es keine Tickets. Wähle einen anderen Filter oder zeige alle Tickets an."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No tickets match this filter. Try another filter or show all tickets."
           }
         }
       }
@@ -3452,6 +3740,88 @@
         }
       }
     },
+    "No active subscriptions found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine aktiven Abonnements gefunden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No active subscriptions found"
+          }
+        }
+      }
+    },
+    "No model selected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Modell ausgewählt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No model selected"
+          }
+        }
+      }
+    },
+    "No response generated yet" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Antwort generiert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No response generated yet"
+          }
+        }
+      }
+    },
+    "No text modules are available in the system." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im System sind keine Textbausteine verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No text modules are available in the system."
+          }
+        }
+      }
+    },
+    "No tickets match this filter. Try another filter or show all tickets." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für diesen Filter gibt es keine Tickets. Wähle einen anderen Filter oder zeige alle Tickets an."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No tickets match this filter. Try another filter or show all tickets."
+          }
+        }
+      }
+    },
     "None" : {
       "localizations" : {
         "de" : {
@@ -3464,6 +3834,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None"
+          }
+        }
+      }
+    },
+    "Not Assigned" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht zugeordnet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Assigned"
           }
         }
       }
@@ -3496,6 +3882,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notifications"
+          }
+        }
+      }
+    },
+    "Notifications are turned off for Tammad. You can turn them on in the Settings app." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen sind für Tammad ausgeschaltet. Du kannst sie in der App „Einstellungen“ einschalten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications are turned off for Tammad. You can turn them on in the Settings app."
           }
         }
       }
@@ -3564,6 +3966,22 @@
         }
       }
     },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
     "Objects" : {
       "localizations" : {
         "de" : {
@@ -3596,22 +4014,6 @@
         }
       }
     },
-    "OK" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
-          }
-        }
-      }
-    },
     "Only your team can see this note. No email will be sent." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3629,23 +4031,6 @@
         }
       }
     },
-    "open" : {
-      "comment" : "Zammad ticket state",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "offen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "open"
-          }
-        }
-      }
-    },
     "Open" : {
       "localizations" : {
         "de" : {
@@ -3658,6 +4043,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings"
           }
         }
       }
@@ -3742,6 +4143,22 @@
         }
       }
     },
+    "Own AI provider" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eigener KI-Anbieter"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Own AI provider"
+          }
+        }
+      }
+    },
     "Owner" : {
       "localizations" : {
         "de" : {
@@ -3770,40 +4187,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
-          }
-        }
-      }
-    },
-    "pending close" : {
-      "comment" : "Zammad ticket state",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "warten auf Schließen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "pending close"
-          }
-        }
-      }
-    },
-    "pending reminder" : {
-      "comment" : "Zammad ticket state",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "warten auf Erinnerung"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "pending reminder"
           }
         }
       }
@@ -3840,38 +4223,6 @@
         }
       }
     },
-    "per month" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "pro Monat"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "per month"
-          }
-        }
-      }
-    },
-    "per year" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "pro Jahr"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "per year"
-          }
-        }
-      }
-    },
     "Personal Info" : {
       "localizations" : {
         "de" : {
@@ -3889,6 +4240,7 @@
       }
     },
     "Please configure your AI API key in Settings > AI Settings to use this feature." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4112,6 +4464,22 @@
         }
       }
     },
+    "Please sign in again to use Zammad AI." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte melde dich erneut an, um die Zammad-KI zu verwenden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please sign in again to use Zammad AI."
+          }
+        }
+      }
+    },
     "Please use an https:// address." : {
       "localizations" : {
         "de" : {
@@ -4240,6 +4608,54 @@
         }
       }
     },
+    "Previously selected tool unavailable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bisher gewähltes Werkzeug nicht verfügbar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previously selected tool unavailable"
+          }
+        }
+      }
+    },
+    "Priority" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priority"
+          }
+        }
+      }
+    },
+    "Priority *" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priorität *"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priority *"
+          }
+        }
+      }
+    },
     "Priorität" : {
       "localizations" : {
         "de" : {
@@ -4320,38 +4736,6 @@
         }
       }
     },
-    "Priority" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Priorität"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Priority"
-          }
-        }
-      }
-    },
-    "Priority *" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Priorität *"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Priority *"
-          }
-        }
-      }
-    },
     "Privacy Policy" : {
       "localizations" : {
         "de" : {
@@ -4416,6 +4800,22 @@
         }
       }
     },
+    "Push Notifications" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push-Benachrichtigungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push Notifications"
+          }
+        }
+      }
+    },
     "Push notification plugin installation required" : {
       "localizations" : {
         "de" : {
@@ -4444,22 +4844,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Push notification plugin not detected on server."
-          }
-        }
-      }
-    },
-    "Push Notifications" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Push-Benachrichtigungen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Push Notifications"
           }
         }
       }
@@ -4592,23 +4976,6 @@
         }
       }
     },
-    "removed" : {
-      "comment" : "Zammad ticket state",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "entfernt"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "removed"
-          }
-        }
-      }
-    },
     "Renews on %@" : {
       "localizations" : {
         "de" : {
@@ -4673,18 +5040,18 @@
         }
       }
     },
-    "Reset all templates to their defaults?" : {
+    "Required" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alle Vorlagen auf die Standardwerte zurücksetzen?"
+            "value" : "Erforderlich"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reset all templates to their defaults?"
+            "value" : "Required"
           }
         }
       }
@@ -4701,6 +5068,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset Templates"
+          }
+        }
+      }
+    },
+    "Reset all templates to their defaults?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Vorlagen auf die Standardwerte zurücksetzen?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset all templates to their defaults?"
           }
         }
       }
@@ -4753,22 +5136,6 @@
         }
       }
     },
-    "Restore failed" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wiederherstellung fehlgeschlagen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Restore failed"
-          }
-        }
-      }
-    },
     "Restore Purchases" : {
       "localizations" : {
         "de" : {
@@ -4781,6 +5148,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restore Purchases"
+          }
+        }
+      }
+    },
+    "Restore failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiederherstellung fehlgeschlagen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore failed"
           }
         }
       }
@@ -4801,6 +5184,22 @@
         }
       }
     },
+    "Review the suggestion before adopting it. Your original draft is kept until you choose Adopt." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prüfe den Vorschlag vor der Übernahme. Dein ursprünglicher Entwurf bleibt erhalten, bis du „Übernehmen“ wählst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review the suggestion before adopting it. Your original draft is kept until you choose Adopt."
+          }
+        }
+      }
+    },
     "Roles" : {
       "localizations" : {
         "de" : {
@@ -4813,6 +5212,70 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Roles"
+          }
+        }
+      }
+    },
+    "SSO" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSO"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSO"
+          }
+        }
+      }
+    },
+    "SSO Login Instructions" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Öffnen Sie Ihre Zammad-Instanz in einem Webbrowser (z. B. Safari oder Chrome).\n2. Melden Sie sich mit dem Single Sign-On (SSO) Ihres Unternehmens an.\n3. Klicken Sie auf Ihr Profilsymbol (oben rechts) und gehen Sie zu „Profil“ oder „Einstellungen“.\n4. Unter „Token-Zugriff“ oder „API-Token“ erstellen Sie einen neuen Token oder kopieren einen bestehenden.\n5. Fügen Sie den Token unten ein und tippen Sie auf Anmelden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Open your Zammad instance in a web browser (e.g. Safari or Chrome).\n2. Log in using your company's Single Sign-On (SSO).\n3. Click your profile icon (top right) and go to \"Profile\" or \"Preferences\".\n4. Under \"Token Access\" or \"API Tokens\", create a new token or copy an existing one.\n5. Paste the token below and tap Login."
+          }
+        }
+      }
+    },
+    "SSO Login Instructions Title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So verbinden Sie sich mit SSO"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How to connect with SSO"
+          }
+        }
+      }
+    },
+    "SSO Token Field Label" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API-Token (aus Zammad-Profil)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Token (from Zammad profile)"
           }
         }
       }
@@ -4849,6 +5312,22 @@
         }
       }
     },
+    "Save Selection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswahl speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Selection"
+          }
+        }
+      }
+    },
     "Schnellauswahl" : {
       "localizations" : {
         "de" : {
@@ -4881,22 +5360,6 @@
         }
       }
     },
-    "Search by name or email" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nach Name oder E-Mail suchen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Search by name or email"
-          }
-        }
-      }
-    },
     "Search Users" : {
       "localizations" : {
         "de" : {
@@ -4913,18 +5376,18 @@
         }
       }
     },
-    "Select a response type and tap Generate to create an AI-powered reply." : {
+    "Search by name or email" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wählen Sie einen Antwort-Typ und tippen Sie auf Generieren, um eine KI-gestützte Antwort zu erstellen."
+            "value" : "Nach Name oder E-Mail suchen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Select a response type and tap Generate to create an AI-powered reply."
+            "value" : "Search by name or email"
           }
         }
       }
@@ -5025,6 +5488,23 @@
         }
       }
     },
+    "Select a response type and tap Generate to create an AI-powered reply." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wählen Sie einen Antwort-Typ und tippen Sie auf Generieren, um eine KI-gestützte Antwort zu erstellen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a response type and tap Generate to create an AI-powered reply."
+          }
+        }
+      }
+    },
     "Send Reply" : {
       "localizations" : {
         "de" : {
@@ -5057,18 +5537,18 @@
         }
       }
     },
-    "Server error (HTTP %@). Please try again later." : {
+    "Server Instructions" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serverfehler (HTTP %@). Bitte versuchen Sie es später erneut."
+            "value" : "Servervorgaben"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Server error (HTTP %@). Please try again later."
+            "value" : "Server Instructions"
           }
         }
       }
@@ -5085,6 +5565,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Server URL"
+          }
+        }
+      }
+    },
+    "Server error (HTTP %@). Please try again later." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serverfehler (HTTP %@). Bitte versuchen Sie es später erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server error (HTTP %@). Please try again later."
           }
         }
       }
@@ -5137,6 +5633,22 @@
         }
       }
     },
+    "Settings…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings…"
+          }
+        }
+      }
+    },
     "Setup Guide" : {
       "localizations" : {
         "de" : {
@@ -5169,6 +5681,22 @@
         }
       }
     },
+    "Sie können Dateien auch per Drag & Drop hier ablegen." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie können Dateien auch per Drag & Drop hier ablegen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can also drag and drop files here."
+          }
+        }
+      }
+    },
     "Sign In Again" : {
       "localizations" : {
         "de" : {
@@ -5181,6 +5709,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign In Again"
+          }
+        }
+      }
+    },
+    "Sign in to Zammad" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei Zammad anmelden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign in to Zammad"
           }
         }
       }
@@ -5246,70 +5790,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save"
-          }
-        }
-      }
-    },
-    "SSO" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "SSO"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "SSO"
-          }
-        }
-      }
-    },
-    "SSO Login Instructions" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1. Öffnen Sie Ihre Zammad-Instanz in einem Webbrowser (z. B. Safari oder Chrome).\n2. Melden Sie sich mit dem Single Sign-On (SSO) Ihres Unternehmens an.\n3. Klicken Sie auf Ihr Profilsymbol (oben rechts) und gehen Sie zu „Profil“ oder „Einstellungen“.\n4. Unter „Token-Zugriff“ oder „API-Token“ erstellen Sie einen neuen Token oder kopieren einen bestehenden.\n5. Fügen Sie den Token unten ein und tippen Sie auf Anmelden."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1. Open your Zammad instance in a web browser (e.g. Safari or Chrome).\n2. Log in using your company's Single Sign-On (SSO).\n3. Click your profile icon (top right) and go to \"Profile\" or \"Preferences\".\n4. Under \"Token Access\" or \"API Tokens\", create a new token or copy an existing one.\n5. Paste the token below and tap Login."
-          }
-        }
-      }
-    },
-    "SSO Login Instructions Title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "So verbinden Sie sich mit SSO"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "How to connect with SSO"
-          }
-        }
-      }
-    },
-    "SSO Token Field Label" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API-Token (aus Zammad-Profil)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API Token (from Zammad profile)"
           }
         }
       }
@@ -5442,22 +5922,6 @@
         }
       }
     },
-    "Status · Priority" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Status · Priorität"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Status · Priority"
-          }
-        }
-      }
-    },
     "Status (neu zuerst)" : {
       "localizations" : {
         "de" : {
@@ -5502,6 +5966,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select Status"
+          }
+        }
+      }
+    },
+    "Status · Priority" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status · Priorität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status · Priority"
           }
         }
       }
@@ -5715,6 +6195,38 @@
         }
       }
     },
+    "Tammad never changes server instructions. Assign tools explicitly after your administrator has tested them. Native tools do not support free custom prompts in Tammad." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tammad verändert die Servervorgaben nicht. Ordne Werkzeuge ausdrücklich zu, nachdem dein Administrator sie getestet hat. Native Werkzeuge unterstützen in Tammad keine freien eigenen Anweisungen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tammad never changes server instructions. Assign tools explicitly after your administrator has tested them. Native tools do not support free custom prompts in Tammad."
+          }
+        }
+      }
+    },
+    "Tammad uses notifications to tell you about new tickets, ticket updates, assignments, mentions, escalations and reminders." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tammad informiert dich mit Benachrichtigungen über neue Tickets, Ticketänderungen, Zuweisungen, Erwähnungen, Eskalationen und Erinnerungen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tammad uses notifications to tell you about new tickets, ticket updates, assignments, mentions, escalations and reminders."
+          }
+        }
+      }
+    },
     "Templates" : {
       "localizations" : {
         "de" : {
@@ -5827,6 +6339,54 @@
         }
       }
     },
+    "The server is temporarily redirecting to another address (%@). For your security, the app does not follow this redirect. Please try again later." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Server leitet vorübergehend an eine andere Adresse weiter (%@). Aus Sicherheitsgründen folgt die App dieser Weiterleitung nicht. Bitte versuche es später erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The server is temporarily redirecting to another address (%@). For your security, the app does not follow this redirect. Please try again later."
+          }
+        }
+      }
+    },
+    "The Zammad AI provider could not complete this request. Check its configuration and quota." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Zammad-KI-Anbieter konnte diese Anfrage nicht abschließen. Prüfe seine Konfiguration und sein Kontingent."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Zammad AI provider could not complete this request. Check its configuration and quota."
+          }
+        }
+      }
+    },
+    "The available tools can differ by ticket group and account permissions." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die verfügbaren Werkzeuge können sich je nach Ticketgruppe und Kontoberechtigungen unterscheiden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The available tools can differ by ticket group and account permissions."
+          }
+        }
+      }
+    },
     "The sender can see that the message was opened." : {
       "localizations" : {
         "de" : {
@@ -5891,6 +6451,22 @@
         }
       }
     },
+    "The server instructions restrict AI to rewriting, or could not be verified. Use writing tools for drafts, or choose your own AI provider for full replies." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Servervorgaben beschränken die KI auf Textüberarbeitung oder konnten nicht geprüft werden. Nutze Schreibwerkzeuge für Entwürfe oder deinen eigenen KI-Anbieter für vollständige Antworten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The server instructions restrict AI to rewriting, or could not be verified. Use writing tools for drafts, or choose your own AI provider for full replies."
+          }
+        }
+      }
+    },
     "The server no longer accepts your credentials, for example because your password or API token changed. Please sign in again." : {
       "localizations" : {
         "de" : {
@@ -5907,6 +6483,22 @@
         }
       }
     },
+    "The server version is unavailable for this account. AI availability is checked directly using your existing permissions." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Serverversion ist für dieses Konto nicht verfügbar. Die KI-Verfügbarkeit wird direkt mit deinen bestehenden Berechtigungen geprüft."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The server version is unavailable for this account. AI availability is checked directly using your existing permissions."
+          }
+        }
+      }
+    },
     "The subscription costs %@ %@ and renews automatically unless you cancel it at least 24 hours before the end of the current period. You can cancel anytime in your App Store settings." : {
       "localizations" : {
         "de" : {
@@ -5919,6 +6511,70 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The subscription costs %@ %@ and renews automatically unless you cancel it at least 24 hours before the end of the current period. You can cancel anytime in your App Store settings."
+          }
+        }
+      }
+    },
+    "There is no customer message to reply to yet." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es gibt noch keine Kundennachricht, auf die du antworten kannst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There is no customer message to reply to yet."
+          }
+        }
+      }
+    },
+    "This AI tool is no longer available for this ticket or rejected the input. Refresh the tools and check the server configuration." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses KI-Werkzeug ist für das Ticket nicht mehr verfügbar oder hat die Eingabe abgelehnt. Aktualisiere die Werkzeuge und prüfe die Serverkonfiguration."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This AI tool is no longer available for this ticket or rejected the input. Refresh the tools and check the server configuration."
+          }
+        }
+      }
+    },
+    "This Zammad installation does not support native AI or has not enabled it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Zammad-Installation unterstützt die native KI-Integration nicht oder hat sie nicht aktiviert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Zammad installation does not support native AI or has not enabled it."
+          }
+        }
+      }
+    },
+    "Ticket" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket"
           }
         }
       }
@@ -5971,18 +6627,18 @@
         }
       }
     },
-    "Ticket subject and details" : {
+    "Ticket Summary (server setting)" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ticketbetreff und Details"
+            "value" : "Ticketzusammenfassung (Servereinstellung)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ticket subject and details"
+            "value" : "Ticket Summary (server setting)"
           }
         }
       }
@@ -5999,6 +6655,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ticket Updates"
+          }
+        }
+      }
+    },
+    "Ticket subject and details" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticketbetreff und Details"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket subject and details"
           }
         }
       }
@@ -6147,22 +6819,6 @@
         }
       }
     },
-    "To generate a reply, the text of the customer's last message and the sender's name are sent to %@, the AI service you configured. Only continue if your organization allows sharing ticket content with this service." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Um eine Antwort zu erstellen, werden der Text der letzten Kundennachricht und der Name des Absenders an %@ gesendet, den von Ihnen konfigurierten KI-Dienst. Fahren Sie nur fort, wenn Ihre Organisation das Teilen von Ticketinhalten mit diesem Dienst erlaubt."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "To generate a reply, the text of the customer's last message and the sender's name are sent to %@, the AI service you configured. Only continue if your organization allows sharing ticket content with this service."
-          }
-        }
-      }
-    },
     "To Plugin" : {
       "localizations" : {
         "de" : {
@@ -6175,6 +6831,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To Plugin"
+          }
+        }
+      }
+    },
+    "To generate a reply, the text of the customer's last message and the sender's name are sent to %@, the AI service you configured. Only continue if your organization allows sharing ticket content with this service." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um eine Antwort zu erstellen, werden der Text der letzten Kundennachricht und der Name des Absenders an %@ gesendet, den von Ihnen konfigurierten KI-Dienst. Fahren Sie nur fort, wenn Ihre Organisation das Teilen von Ticketinhalten mit diesem Dienst erlaubt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To generate a reply, the text of the customer's last message and the sender's name are sent to %@, the AI service you configured. Only continue if your organization allows sharing ticket content with this service."
           }
         }
       }
@@ -6212,6 +6884,7 @@
       }
     },
     "Tone" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6223,6 +6896,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tone"
+          }
+        }
+      }
+    },
+    "Tools for Full Replies" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Werkzeuge für vollständige Antworten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tools for Full Replies"
           }
         }
       }
@@ -6243,22 +6932,6 @@
         }
       }
     },
-    "Try a different search term." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Versuchen Sie einen anderen Suchbegriff."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Try a different search term."
-          }
-        }
-      }
-    },
     "Try Again" : {
       "localizations" : {
         "de" : {
@@ -6271,6 +6944,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try Again"
+          }
+        }
+      }
+    },
+    "Try a different search term." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versuchen Sie einen anderen Suchbegriff."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a different search term."
           }
         }
       }
@@ -6303,6 +6992,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Type: %@"
+          }
+        }
+      }
+    },
+    "Um Fotos aufzunehmen, erlauben Sie Tammad in den Einstellungen den Zugriff auf die Kamera." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um Fotos aufzunehmen, erlauben Sie Tammad in den Einstellungen den Zugriff auf die Kamera."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To take photos, allow Tammad to access the camera in Settings."
           }
         }
       }
@@ -6520,6 +7225,38 @@
         }
       }
     },
+    "Use My Own AI Provider for This Reply" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meinen eigenen KI-Anbieter für diese Antwort verwenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use My Own AI Provider for This Reply"
+          }
+        }
+      }
+    },
+    "Use the AI configured on your Zammad server, or connect your own OpenAI-compatible provider. AI features require Tammad Premium. Server AI quotas and provider fees are separate." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutze die KI deines Zammad-Servers oder verbinde deinen eigenen OpenAI-kompatiblen Anbieter. KI-Funktionen erfordern Tammad Premium. KI-Kontingente des Servers und Anbietergebühren sind davon unabhängig."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the AI configured on your Zammad server, or connect your own OpenAI-compatible provider. AI features require Tammad Premium. Server AI quotas and provider fees are separate."
+          }
+        }
+      }
+    },
     "Username" : {
       "localizations" : {
         "de" : {
@@ -6564,22 +7301,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Users"
-          }
-        }
-      }
-    },
-    "Wählen Sie ein Ticket aus der Liste, der Suche oder den Benachrichtigungen aus." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wählen Sie ein Ticket aus der Liste, der Suche oder den Benachrichtigungen aus."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select a ticket from the list, search or notifications."
           }
         }
       }
@@ -6648,7 +7369,24 @@
         }
       }
     },
+    "When using your own AI provider, the customer's last message and sender name are sent to that service. Tammad asks for confirmation before sharing content with it for the first time." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei deinem eigenen KI-Anbieter werden die letzte Kundennachricht und der Absendername an diesen Dienst gesendet. Tammad fragt vor der ersten Weitergabe von Inhalten nach deiner Zustimmung."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When using your own AI provider, the customer's last message and sender name are sent to that service. Tammad asks for confirmation before sharing content with it for the first time."
+          }
+        }
+      }
+    },
     "When you generate a reply, the text of the customer's last message and the sender's name are sent to the AI service configured above. Tammad asks for confirmation before sharing data with a service for the first time." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6681,6 +7419,54 @@
         }
       }
     },
+    "Writing Assistant" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreibassistent"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Writing Assistant"
+          }
+        }
+      }
+    },
+    "Writing Tool" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreibwerkzeug"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Writing Tool"
+          }
+        }
+      }
+    },
+    "Wählen Sie ein Ticket aus der Liste, der Suche oder den Benachrichtigungen aus." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wählen Sie ein Ticket aus der Liste, der Suche oder den Benachrichtigungen aus."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a ticket from the list, search or notifications."
+          }
+        }
+      }
+    },
     "Yearly Subscription" : {
       "localizations" : {
         "de" : {
@@ -6697,6 +7483,22 @@
         }
       }
     },
+    "You already have an AI API key saved. Choose which provider Tammad should use from now on. Your saved key and model will be kept." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast bereits einen KI-API-Schlüssel hinterlegt. Wähle, welchen Anbieter Tammad künftig verwenden soll. Dein gespeicherter Schlüssel und dein Modell bleiben erhalten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You already have an AI API key saved. Choose which provider Tammad should use from now on. Your saved key and model will be kept."
+          }
+        }
+      }
+    },
     "You appear to be offline. Please check your internet connection." : {
       "localizations" : {
         "de" : {
@@ -6709,6 +7511,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You appear to be offline. Please check your internet connection."
+          }
+        }
+      }
+    },
+    "You can change this choice at any time in AI Settings." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst diese Auswahl jederzeit in den KI-Einstellungen ändern."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can change this choice at any time in AI Settings."
           }
         }
       }
@@ -6746,6 +7564,38 @@
         }
       }
     },
+    "Your Zammad account or API token does not have permission to use these AI tools." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein Zammad-Konto oder API-Token hat keine Berechtigung für diese KI-Werkzeuge."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Zammad account or API token does not have permission to use these AI tools."
+          }
+        }
+      }
+    },
+    "Your draft is sent to the AI configured by your Zammad administrator. Review the suggestion before adopting it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein Entwurf wird an die von deinem Zammad-Administrator konfigurierte KI gesendet. Prüfe den Vorschlag vor der Übernahme."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your draft is sent to the AI configured by your Zammad administrator. Review the suggestion before adopting it."
+          }
+        }
+      }
+    },
     "Your reply will be sent to the recipients below." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -6775,726 +7625,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your server address and credentials will be removed from this device."
-          }
-        }
-      }
-    },
-    "Zammad for iOS" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zammad für iOS"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zammad for iOS"
-          }
-        }
-      }
-    },
-    "zammad.example.com" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "zammad.example.com"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "zammad.example.com"
-          }
-        }
-      }
-    },
-    "AI Action" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "KI-Aktion"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI Action"
-          }
-        }
-      }
-    },
-    "AI Provider" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "KI-Anbieter"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI Provider"
-          }
-        }
-      }
-    },
-    "Allow fallback to my own AI provider" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fallback auf meinen eigenen KI-Anbieter erlauben"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Allow fallback to my own AI provider"
-          }
-        }
-      }
-    },
-    "Automatic (recommended)" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatisch (empfohlen)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatic (recommended)"
-          }
-        }
-      }
-    },
-    "Automatic uses Zammad AI for supported actions. An external fallback must be enabled separately in AI Settings. Zammad's standard tools edit drafts; full replies need a suitable server configuration." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatisch verwendet die Zammad-KI für unterstützte Aktionen. Einen externen Fallback musst du separat in den KI-Einstellungen aktivieren. Zammads Standardwerkzeuge bearbeiten Entwürfe; vollständige Antworten benötigen eine passende Serverkonfiguration."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatic uses Zammad AI for supported actions. An external fallback must be enabled separately in AI Settings. Zammad's standard tools edit drafts; full replies need a suitable server configuration."
-          }
-        }
-      }
-    },
-    "Automatic uses Zammad AI for supported actions. External services are used only when you explicitly enable fallback or choose your own provider." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatisch verwendet die Zammad-KI für unterstützte Aktionen. Externe Dienste werden nur verwendet, wenn du den Fallback ausdrücklich aktivierst oder deinen eigenen Anbieter auswählst."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatic uses Zammad AI for supported actions. External services are used only when you explicitly enable fallback or choose your own provider."
-          }
-        }
-      }
-    },
-    "Available Writing Tools" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verfügbare Schreibwerkzeuge"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Available Writing Tools"
-          }
-        }
-      }
-    },
-    "Cancel Generation" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Generierung abbrechen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel Generation"
-          }
-        }
-      }
-    },
-    "Check Zammad AI Again" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zammad-KI erneut prüfen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Check Zammad AI Again"
-          }
-        }
-      }
-    },
-    "Checking Zammad AI…" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zammad-KI wird geprüft …"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Checking Zammad AI…"
-          }
-        }
-      }
-    },
-    "Choose Your AI Provider" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "KI-Anbieter auswählen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose Your AI Provider"
-          }
-        }
-      }
-    },
-    "Could not reach Zammad AI. Check your connection and try again." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die Zammad-KI ist nicht erreichbar. Prüfe deine Verbindung und versuche es erneut."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Could not reach Zammad AI. Check your connection and try again."
-          }
-        }
-      }
-    },
-    "Disabled" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Deaktiviert"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Disabled"
-          }
-        }
-      }
-    },
-    "Draft to Edit" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zu bearbeitender Entwurf"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Draft to Edit"
-          }
-        }
-      }
-    },
-    "Edit Draft" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entwurf bearbeiten"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit Draft"
-          }
-        }
-      }
-    },
-    "Enabled" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktiviert"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enabled"
-          }
-        }
-      }
-    },
-    "My administrator verified that these instructions and the selected tools support full replies" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mein Administrator hat geprüft, dass diese Vorgaben und die gewählten Werkzeuge vollständige Antworten unterstützen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "My administrator verified that these instructions and the selected tools support full replies"
-          }
-        }
-      }
-    },
-    "New Reply" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Neue Antwort"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "New Reply"
-          }
-        }
-      }
-    },
-    "Not Assigned" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nicht zugeordnet"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Not Assigned"
-          }
-        }
-      }
-    },
-    "Own AI provider" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eigener KI-Anbieter"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Own AI provider"
-          }
-        }
-      }
-    },
-    "Please sign in again to use Zammad AI." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bitte melde dich erneut an, um die Zammad-KI zu verwenden."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please sign in again to use Zammad AI."
-          }
-        }
-      }
-    },
-    "Previously selected tool unavailable" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bisher gewähltes Werkzeug nicht verfügbar"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Previously selected tool unavailable"
-          }
-        }
-      }
-    },
-    "Review the suggestion before adopting it. Your original draft is kept until you choose Adopt." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Prüfe den Vorschlag vor der Übernahme. Dein ursprünglicher Entwurf bleibt erhalten, bis du „Übernehmen“ wählst."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Review the suggestion before adopting it. Your original draft is kept until you choose Adopt."
-          }
-        }
-      }
-    },
-    "Save Selection" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Auswahl speichern"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save Selection"
-          }
-        }
-      }
-    },
-    "Server Instructions" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Servervorgaben"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Server Instructions"
-          }
-        }
-      }
-    },
-    "Tammad never changes server instructions. Assign tools explicitly after your administrator has tested them. Native tools do not support free custom prompts in Tammad." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tammad verändert die Servervorgaben nicht. Ordne Werkzeuge ausdrücklich zu, nachdem dein Administrator sie getestet hat. Native Werkzeuge unterstützen in Tammad keine freien eigenen Anweisungen."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tammad never changes server instructions. Assign tools explicitly after your administrator has tested them. Native tools do not support free custom prompts in Tammad."
-          }
-        }
-      }
-    },
-    "The Zammad AI provider could not complete this request. Check its configuration and quota." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Der Zammad-KI-Anbieter konnte diese Anfrage nicht abschließen. Prüfe seine Konfiguration und sein Kontingent."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The Zammad AI provider could not complete this request. Check its configuration and quota."
-          }
-        }
-      }
-    },
-    "The available tools can differ by ticket group and account permissions." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die verfügbaren Werkzeuge können sich je nach Ticketgruppe und Kontoberechtigungen unterscheiden."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The available tools can differ by ticket group and account permissions."
-          }
-        }
-      }
-    },
-    "The server instructions restrict AI to rewriting, or could not be verified. Use writing tools for drafts, or choose your own AI provider for full replies." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die Servervorgaben beschränken die KI auf Textüberarbeitung oder konnten nicht geprüft werden. Nutze Schreibwerkzeuge für Entwürfe oder deinen eigenen KI-Anbieter für vollständige Antworten."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The server instructions restrict AI to rewriting, or could not be verified. Use writing tools for drafts, or choose your own AI provider for full replies."
-          }
-        }
-      }
-    },
-    "The server version is unavailable for this account. AI availability is checked directly using your existing permissions." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die Serverversion ist für dieses Konto nicht verfügbar. Die KI-Verfügbarkeit wird direkt mit deinen bestehenden Berechtigungen geprüft."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The server version is unavailable for this account. AI availability is checked directly using your existing permissions."
-          }
-        }
-      }
-    },
-    "There is no customer message to reply to yet." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Es gibt noch keine Kundennachricht, auf die du antworten kannst."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "There is no customer message to reply to yet."
-          }
-        }
-      }
-    },
-    "This AI tool is no longer available for this ticket or rejected the input. Refresh the tools and check the server configuration." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dieses KI-Werkzeug ist für das Ticket nicht mehr verfügbar oder hat die Eingabe abgelehnt. Aktualisiere die Werkzeuge und prüfe die Serverkonfiguration."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This AI tool is no longer available for this ticket or rejected the input. Refresh the tools and check the server configuration."
-          }
-        }
-      }
-    },
-    "This Zammad installation does not support native AI or has not enabled it." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Diese Zammad-Installation unterstützt die native KI-Integration nicht oder hat sie nicht aktiviert."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This Zammad installation does not support native AI or has not enabled it."
-          }
-        }
-      }
-    },
-    "Ticket Summary (server setting)" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ticketzusammenfassung (Servereinstellung)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ticket Summary (server setting)"
-          }
-        }
-      }
-    },
-    "Tools for Full Replies" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Werkzeuge für vollständige Antworten"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tools for Full Replies"
-          }
-        }
-      }
-    },
-    "Use My Own AI Provider for This Reply" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meinen eigenen KI-Anbieter für diese Antwort verwenden"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Use My Own AI Provider for This Reply"
-          }
-        }
-      }
-    },
-    "Use the AI configured on your Zammad server, or connect your own OpenAI-compatible provider. AI features require Tammad Premium. Server AI quotas and provider fees are separate." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nutze die KI deines Zammad-Servers oder verbinde deinen eigenen OpenAI-kompatiblen Anbieter. KI-Funktionen erfordern Tammad Premium. KI-Kontingente des Servers und Anbietergebühren sind davon unabhängig."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Use the AI configured on your Zammad server, or connect your own OpenAI-compatible provider. AI features require Tammad Premium. Server AI quotas and provider fees are separate."
-          }
-        }
-      }
-    },
-    "Writing Assistant" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Schreibassistent"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Writing Assistant"
-          }
-        }
-      }
-    },
-    "Writing Tool" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Schreibwerkzeug"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Writing Tool"
-          }
-        }
-      }
-    },
-    "You already have an AI API key saved. Choose which provider Tammad should use from now on. Your saved key and model will be kept." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du hast bereits einen KI-API-Schlüssel hinterlegt. Wähle, welchen Anbieter Tammad künftig verwenden soll. Dein gespeicherter Schlüssel und dein Modell bleiben erhalten."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You already have an AI API key saved. Choose which provider Tammad should use from now on. Your saved key and model will be kept."
-          }
-        }
-      }
-    },
-    "You can change this choice at any time in AI Settings." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du kannst diese Auswahl jederzeit in den KI-Einstellungen ändern."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You can change this choice at any time in AI Settings."
-          }
-        }
-      }
-    },
-    "Your Zammad account or API token does not have permission to use these AI tools." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dein Zammad-Konto oder API-Token hat keine Berechtigung für diese KI-Werkzeuge."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your Zammad account or API token does not have permission to use these AI tools."
-          }
-        }
-      }
-    },
-    "Your draft is sent to the AI configured by your Zammad administrator. Review the suggestion before adopting it." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dein Entwurf wird an die von deinem Zammad-Administrator konfigurierte KI gesendet. Prüfe den Vorschlag vor der Übernahme."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your draft is sent to the AI configured by your Zammad administrator. Review the suggestion before adopting it."
           }
         }
       }
@@ -7595,6 +7725,22 @@
         }
       }
     },
+    "Zammad for iOS" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zammad für iOS"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zammad for iOS"
+          }
+        }
+      }
+    },
     "Zammad returned an invalid AI response." : {
       "localizations" : {
         "de" : {
@@ -7611,34 +7757,316 @@
         }
       }
     },
-    "In native mode, your draft or the customer's message is processed by the AI provider configured by your Zammad administrator. Server quotas and provider fees may apply." : {
+    "closed" : {
+      "comment" : "Zammad ticket state",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Im nativen Modus verarbeitet der von deinem Zammad-Administrator konfigurierte KI-Anbieter deinen Entwurf oder die Kundennachricht. Dabei können Serverkontingente und Anbietergebühren anfallen."
+            "value" : "geschlossen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In native mode, your draft or the customer's message is processed by the AI provider configured by your Zammad administrator. Server quotas and provider fees may apply."
+            "value" : "closed"
           }
         }
       }
     },
-    "When using your own AI provider, the customer's last message and sender name are sent to that service. Tammad asks for confirmation before sharing content with it for the first time." : {
+    "every %@" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bei deinem eigenen KI-Anbieter werden die letzte Kundennachricht und der Absendername an diesen Dienst gesendet. Tammad fragt vor der ersten Weitergabe von Inhalten nach deiner Zustimmung."
+            "value" : "alle %@"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When using your own AI provider, the customer's last message and sender name are sent to that service. Tammad asks for confirmation before sharing content with it for the first time."
+            "value" : "every %@"
+          }
+        }
+      }
+    },
+    "high" : {
+      "comment" : "Zammad ticket priority",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hoch"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "high"
+          }
+        }
+      }
+    },
+    "https://api.openai.com/v1" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://api.openai.com/v1"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://api.openai.com/v1"
+          }
+        }
+      }
+    },
+    "low" : {
+      "comment" : "Zammad ticket priority",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "niedrig"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "low"
+          }
+        }
+      }
+    },
+    "merged" : {
+      "comment" : "Zammad ticket state",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zusammengefügt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "merged"
+          }
+        }
+      }
+    },
+    "new" : {
+      "comment" : "Zammad ticket state",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "neu"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "new"
+          }
+        }
+      }
+    },
+    "normal" : {
+      "comment" : "Zammad ticket priority",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "normal"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "normal"
+          }
+        }
+      }
+    },
+    "open" : {
+      "comment" : "Zammad ticket state",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "offen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "open"
+          }
+        }
+      }
+    },
+    "pending close" : {
+      "comment" : "Zammad ticket state",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "warten auf Schließen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pending close"
+          }
+        }
+      }
+    },
+    "pending reminder" : {
+      "comment" : "Zammad ticket state",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "warten auf Erinnerung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pending reminder"
+          }
+        }
+      }
+    },
+    "per month" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pro Monat"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "per month"
+          }
+        }
+      }
+    },
+    "per year" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pro Jahr"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "per year"
+          }
+        }
+      }
+    },
+    "removed" : {
+      "comment" : "Zammad ticket state",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "entfernt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "removed"
+          }
+        }
+      }
+    },
+    "zammad.example.com" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zammad.example.com"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zammad.example.com"
+          }
+        }
+      }
+    },
+    "„%@“ ist zu groß. Anhänge dürfen zusammen höchstens %@ groß sein." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ ist zu groß. Anhänge dürfen zusammen höchstens %@ groß sein."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” is too large. Attachments can be at most %@ in total."
+          }
+        }
+      }
+    },
+    "„%@“ wurde nicht angehängt, weil der Entwurf bereits gesendet wird." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ wurde nicht angehängt, weil der Entwurf bereits gesendet wird."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” was not attached because the draft is already being sent."
+          }
+        }
+      }
+    },
+    "•" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "•"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "•"
+          }
+        }
+      }
+    },
+    "••••••••" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "••••••••"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "••••••••"
           }
         }
       }
